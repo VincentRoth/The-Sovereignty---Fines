@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>SovereigntyFines</AssemblyName>
+    <RootNamespace>SovereigntyFines</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>none</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>..\1.6\Assemblies\</OutputPath>
+
+    <!-- ===== EDIT THESE TWO PATHS IF NEEDED ===== -->
+    <RimWorldDir>C:\Program Files (x86)\Steam\steamapps\common\RimWorld</RimWorldDir>
+    <WorkshopDir>C:\Program Files (x86)\Steam\steamapps\workshop\content\294100</WorkshopDir>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldDir)\RimWorldWin64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>$(RimWorldDir)\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>$(RimWorldDir)\RimWorldWin64_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>$(RimWorldDir)\RimWorldWin64_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Harmony (Workshop mod 2009463077) -->
+    <Reference Include="0Harmony">
+      <HintPath>$(WorkshopDir)\2009463077\1.6\Assemblies\0Harmony.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- The Sovereignty (Workshop mod 3488373703) -->
+    <Reference Include="SEX_Machinists">
+      <HintPath>$(WorkshopDir)\3488373703\1.6\Assemblies\SEX_Machinists.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+</Project>

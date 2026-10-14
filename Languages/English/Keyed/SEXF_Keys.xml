@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Fine offer letter -->
+	<SEXF_FineOfferTitle>Inspection fine</SEXF_FineOfferTitle>
+	<SEXF_FineOfferText>The inspectors from {0} found violations of the charter in our colony:\n\n{1}\n\nTotal fine: {2} silver.\n\nIf we pay within one day, the infractions will be overlooked and no warning will be issued. Otherwise, a warning will be recorded against the colony (currently {3}/3).\n\nThe silver must be available in our storage.</SEXF_FineOfferText>
+	<SEXF_PayFineOption>Pay the fine ({0} silver)</SEXF_PayFineOption>
+	<SEXF_RefuseFineOption>Refuse and accept the warning</SEXF_RefuseFineOption>
+	<SEXF_DecideLater>Decide later</SEXF_DecideLater>
+	<SEXF_NotEnoughSilver>Not enough silver in storage ({0}/{1})</SEXF_NotEnoughSilver>
+	<SEXF_NotEnoughSilverMessage>Not enough silver in storage.</SEXF_NotEnoughSilverMessage>
+	<SEXF_FinePaid>Fine of {0} silver paid. The inspectors closed the case without a warning.</SEXF_FinePaid>
+	<SEXF_FineExpiredTitle>Fine not paid</SEXF_FineExpiredTitle>
+	<SEXF_FineExpiredText>The deadline to pay the inspection fine has passed. The inspectors have recorded a warning against our colony ({0}/3).</SEXF_FineExpiredText>
+	<SEXF_FineWaived>The inspection fine is zero: the infractions were settled without a warning.</SEXF_FineWaived>
+
+	<SEXF_LineCount>• {0} — {1} found: {2} silver</SEXF_LineCount>
+	<SEXF_LineCountCapped>• {0} — {1} found ({2} billed): {3} silver</SEXF_LineCountCapped>
+	<SEXF_LineFixed>• {0} — fixed fine: {1} silver</SEXF_LineFixed>
+
+	<!-- Redemption (comms console) -->
+	<SEXF_RedeemOption>Pay the exceptional fine ({0} silver) to restore relations</SEXF_RedeemOption>
+	<SEXF_RedeemConfirm>Pay {0} silver to {1}?\n\nAll warnings will be cleared and the faction will no longer be permanently hostile. Relations will be reset to -50.</SEXF_RedeemConfirm>
+	<SEXF_RedeemDone>{0} accepted the exceptional fine. Warnings are cleared and the faction is no longer hostile. Relations: -50.</SEXF_RedeemDone>
+
+	<!-- Settings -->
+	<SEXF_SettingsTitle>The Sovereignty - Fines</SEXF_SettingsTitle>
+	<SEXF_InspectionEnabled>Inspections enabled</SEXF_InspectionEnabled>
+	<SEXF_InspectionEnabledTip>When unchecked, the Sovereignty never sends inspectors: no warnings, no fines. Envoys, patrols and traders are not affected.</SEXF_InspectionEnabledTip>
+	<SEXF_GlobalMultiplier>Global fine multiplier: x{0}</SEXF_GlobalMultiplier>
+	<SEXF_MaxBilled>Maximum billed elements per category: {0}</SEXF_MaxBilled>
+	<SEXF_RedeemFine>Exceptional fine to lift permanent hostility: {0} silver</SEXF_RedeemFine>
+	<SEXF_ResetDefaults>Reset to defaults</SEXF_ResetDefaults>
+	<SEXF_IncludedTip>Checked: inspectors look for this category. Unchecked: it is ignored (no letter, no warning, no fine).</SEXF_IncludedTip>
+	<SEXF_PerElement>Bill per element ({0}); uncheck for a fixed fine</SEXF_PerElement>
+	<SEXF_AmountPerElement>Amount per element: {0} silver</SEXF_AmountPerElement>
+	<SEXF_AmountFixed>Fixed amount: {0} silver</SEXF_AmountFixed>
+	<SEXF_FixedOnly>Fixed fine only (the number of plants is not counted).</SEXF_FixedOnly>
+	<SEXF_RequiresMod>(requires {0})</SEXF_RequiresMod>
+
+	<!-- Categories -->
+	<SEXF_Cat_Plants>Psychoactive plants (psychoid, poppy)</SEXF_Cat_Plants>
+	<SEXF_Cat_Slaves>Slaves</SEXF_Cat_Slaves>
+	<SEXF_Cat_Animals>Combustible animals (boomalope, boomrat...)</SEXF_Cat_Animals>
+	<SEXF_Cat_Mechs>Mechanoids</SEXF_Cat_Mechs>
+	<SEXF_Cat_Androids>Androids</SEXF_Cat_Androids>
+	<SEXF_Cat_Cannibal>Human remains (leather, meat)</SEXF_Cat_Cannibal>
+	<SEXF_Cat_Drugs>Hard drugs</SEXF_Cat_Drugs>
+	<SEXF_Cat_Antigrain>Antimatter munitions</SEXF_Cat_Antigrain>
+	<SEXF_Cat_Blazebulb>Blazebulb</SEXF_Cat_Blazebulb>
+	<SEXF_Cat_Bloodfeeders>Bloodfeeders (sanguophages)</SEXF_Cat_Bloodfeeders>
+
+	<SEXF_Unit_Plants>plant</SEXF_Unit_Plants>
+	<SEXF_Unit_Slaves>slave</SEXF_Unit_Slaves>
+	<SEXF_Unit_Animals>animal</SEXF_Unit_Animals>
+	<SEXF_Unit_Mechs>mechanoid</SEXF_Unit_Mechs>
+	<SEXF_Unit_Androids>android</SEXF_Unit_Androids>
+	<SEXF_Unit_Cannibal>stack</SEXF_Unit_Cannibal>
+	<SEXF_Unit_Drugs>stack</SEXF_Unit_Drugs>
+	<SEXF_Unit_Antigrain>stack</SEXF_Unit_Antigrain>
+	<SEXF_Unit_Blazebulb>plant</SEXF_Unit_Blazebulb>
+	<SEXF_Unit_Bloodfeeders>bloodfeeder</SEXF_Unit_Bloodfeeders>
+
+</LanguageData>

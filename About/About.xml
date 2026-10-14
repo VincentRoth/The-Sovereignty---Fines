@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>The Sovereignty - Fines &amp; Inspection Options</name>
+	<author>Local</author>
+	<packageId>Local.SovereigntyFines</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>Machinists.IfItWas.Epic</packageId>
+			<displayName>The Sovereignty - A Faction Expansion</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/3488373703</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>Machinists.IfItWas.Epic</li>
+	</loadAfter>
+	<description>Companion mod for "The Sovereignty - A Faction Expansion".
+
+- Pay a fine (within one day) to avoid the warning issued after an inspection. The fine depends on the infractions found and their number.
+- Configurable fine scale per category (per element or fixed), with the option to exclude a category from inspections.
+- Option to disable inspections entirely.
+- If the faction became a permanent enemy: pay an exceptional fine through the comms console to clear all warnings and lift the hostility (relations reset to -50).
+
+All options are in Options &gt; Mod settings.</description>
+</ModMetaData>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<LetterDef>
+		<defName>SEXF_FineOffer</defName>
+		<letterClass>SovereigntyFines.ChoiceLetter_FineOffer</letterClass>
+		<color>(1, 0.85, 0.4)</color>
+		<flashColor>(1, 0.85, 0.4)</flashColor>
+		<flashInterval>90</flashInterval>
+		<bounce>true</bounce>
+		<arriveSound>LetterArrive_BadUrgent</arriveSound>
+	</LetterDef>
+</Defs>

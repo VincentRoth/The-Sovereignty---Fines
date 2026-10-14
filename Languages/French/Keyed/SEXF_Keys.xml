@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Lettre d'amende -->
+	<SEXF_FineOfferTitle>Amende d'inspection</SEXF_FineOfferTitle>
+	<SEXF_FineOfferText>Les inspecteurs de {0} ont relevé des infractions à la charte dans notre colonie :\n\n{1}\n\nAmende totale : {2} argent.\n\nSi nous payons dans un délai d'un jour, les infractions seront ignorées et aucun avertissement ne sera émis. Sinon, un avertissement sera enregistré contre la colonie (actuellement {3}/3).\n\nL'argent doit être disponible dans notre stockage.</SEXF_FineOfferText>
+	<SEXF_PayFineOption>Payer l'amende ({0} argent)</SEXF_PayFineOption>
+	<SEXF_RefuseFineOption>Refuser et accepter l'avertissement</SEXF_RefuseFineOption>
+	<SEXF_DecideLater>Décider plus tard</SEXF_DecideLater>
+	<SEXF_NotEnoughSilver>Pas assez d'argent en stockage ({0}/{1})</SEXF_NotEnoughSilver>
+	<SEXF_NotEnoughSilverMessage>Pas assez d'argent en stockage.</SEXF_NotEnoughSilverMessage>
+	<SEXF_FinePaid>Amende de {0} argent payée. Les inspecteurs ont clos le dossier sans avertissement.</SEXF_FinePaid>
+	<SEXF_FineExpiredTitle>Amende non payée</SEXF_FineExpiredTitle>
+	<SEXF_FineExpiredText>Le délai pour payer l'amende d'inspection est écoulé. Les inspecteurs ont enregistré un avertissement contre notre colonie ({0}/3).</SEXF_FineExpiredText>
+	<SEXF_FineWaived>L'amende d'inspection est nulle : les infractions sont réglées sans avertissement.</SEXF_FineWaived>
+
+	<SEXF_LineCount>• {0} — {1} trouvé(s) : {2} argent</SEXF_LineCount>
+	<SEXF_LineCountCapped>• {0} — {1} trouvé(s) ({2} facturé(s)) : {3} argent</SEXF_LineCountCapped>
+	<SEXF_LineFixed>• {0} — amende fixe : {1} argent</SEXF_LineFixed>
+
+	<!-- Rachat (console de communication) -->
+	<SEXF_RedeemOption>Payer l'amende exceptionnelle ({0} argent) pour rétablir les relations</SEXF_RedeemOption>
+	<SEXF_RedeemConfirm>Payer {0} argent à {1} ?\n\nTous les avertissements seront effacés et la faction ne sera plus ennemie permanente. Les relations seront remises à -50.</SEXF_RedeemConfirm>
+	<SEXF_RedeemDone>{0} a accepté l'amende exceptionnelle. Les avertissements sont effacés et la faction n'est plus hostile. Relations : -50.</SEXF_RedeemDone>
+
+	<!-- Réglages -->
+	<SEXF_SettingsTitle>La Souveraineté - Amendes</SEXF_SettingsTitle>
+	<SEXF_InspectionEnabled>Inspections activées</SEXF_InspectionEnabled>
+	<SEXF_InspectionEnabledTip>Décochée, la Souveraineté n'envoie plus jamais d'inspecteurs : ni avertissements, ni amendes. Les envoyés, patrouilles et marchands ne sont pas affectés.</SEXF_InspectionEnabledTip>
+	<SEXF_GlobalMultiplier>Multiplicateur global des amendes : x{0}</SEXF_GlobalMultiplier>
+	<SEXF_MaxBilled>Nombre maximum d'éléments facturés par catégorie : {0}</SEXF_MaxBilled>
+	<SEXF_RedeemFine>Amende exceptionnelle pour lever l'hostilité permanente : {0} argent</SEXF_RedeemFine>
+	<SEXF_ResetDefaults>Rétablir les valeurs par défaut</SEXF_ResetDefaults>
+	<SEXF_IncludedTip>Cochée : les inspecteurs recherchent cette catégorie. Décochée : elle est ignorée (ni lettre, ni avertissement, ni amende).</SEXF_IncludedTip>
+	<SEXF_PerElement>Facturer par élément ({0}) ; décocher pour une amende fixe</SEXF_PerElement>
+	<SEXF_AmountPerElement>Montant par élément : {0} argent</SEXF_AmountPerElement>
+	<SEXF_AmountFixed>Montant fixe : {0} argent</SEXF_AmountFixed>
+	<SEXF_FixedOnly>Amende fixe uniquement (le nombre de plants n'est pas compté).</SEXF_FixedOnly>
+	<SEXF_RequiresMod>(nécessite {0})</SEXF_RequiresMod>
+
+	<!-- Catégories -->
+	<SEXF_Cat_Plants>Plantes psychoactives (psychoïde, pavot)</SEXF_Cat_Plants>
+	<SEXF_Cat_Slaves>Esclaves</SEXF_Cat_Slaves>
+	<SEXF_Cat_Animals>Animaux combustibles (boomalope, boomrat...)</SEXF_Cat_Animals>
+	<SEXF_Cat_Mechs>Mécanoïdes</SEXF_Cat_Mechs>
+	<SEXF_Cat_Androids>Androïdes</SEXF_Cat_Androids>
+	<SEXF_Cat_Cannibal>Restes humains (cuir, viande)</SEXF_Cat_Cannibal>
+	<SEXF_Cat_Drugs>Drogues dures</SEXF_Cat_Drugs>
+	<SEXF_Cat_Antigrain>Munitions antimatière</SEXF_Cat_Antigrain>
+	<SEXF_Cat_Blazebulb>Blazebulb</SEXF_Cat_Blazebulb>
+	<SEXF_Cat_Bloodfeeders>Sanguophages</SEXF_Cat_Bloodfeeders>
+
+	<SEXF_Unit_Plants>plant</SEXF_Unit_Plants>
+	<SEXF_Unit_Slaves>esclave</SEXF_Unit_Slaves>
+	<SEXF_Unit_Animals>animal</SEXF_Unit_Animals>
+	<SEXF_Unit_Mechs>mécanoïde</SEXF_Unit_Mechs>
+	<SEXF_Unit_Androids>androïde</SEXF_Unit_Androids>
+	<SEXF_Unit_Cannibal>pile</SEXF_Unit_Cannibal>
+	<SEXF_Unit_Drugs>pile</SEXF_Unit_Drugs>
+	<SEXF_Unit_Antigrain>pile</SEXF_Unit_Antigrain>
+	<SEXF_Unit_Blazebulb>plant</SEXF_Unit_Blazebulb>
+	<SEXF_Unit_Bloodfeeders>sanguophage</SEXF_Unit_Bloodfeeders>
+
+</LanguageData>
