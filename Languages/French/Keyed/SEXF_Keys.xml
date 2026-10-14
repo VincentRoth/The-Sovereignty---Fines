@@ -20,7 +20,7 @@
 
 	<!-- Rachat (console de communication) -->
 	<SEXF_RedeemOption>Payer l'amende exceptionnelle ({0} argent) pour rétablir les relations</SEXF_RedeemOption>
-	<SEXF_RedeemConfirm>Payer {0} argent à {1} ?\n\nTous les avertissements seront effacés et la faction ne sera plus ennemie permanente. Les relations seront remises à -50.</SEXF_RedeemConfirm>
+	<SEXF_RedeemConfirm>Payer {0} argent à {1} ?\n\nTous les avertissements seront effacés et la faction ne sera plus ennemie permanente.</SEXF_RedeemConfirm>
 	<SEXF_RedeemDone>{0} a accepté l'amende exceptionnelle. Les avertissements sont effacés et la faction n'est plus hostile. Relations : -50.</SEXF_RedeemDone>
 
 	<!-- Réglages -->

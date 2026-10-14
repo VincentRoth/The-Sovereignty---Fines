@@ -47,6 +47,10 @@ namespace SovereigntyFines
                 }
 
                 int count = cat.Counter(map);
+                if (Prefs.DevMode)
+                {
+                    Log.Message("[SovereigntyFines] Inspection count - " + cat.Id + ": " + count);
+                }
                 if (count <= 0)
                 {
                     continue;

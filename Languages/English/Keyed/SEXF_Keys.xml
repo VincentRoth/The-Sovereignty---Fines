@@ -20,7 +20,7 @@
 
 	<!-- Redemption (comms console) -->
 	<SEXF_RedeemOption>Pay the exceptional fine ({0} silver) to restore relations</SEXF_RedeemOption>
-	<SEXF_RedeemConfirm>Pay {0} silver to {1}?\n\nAll warnings will be cleared and the faction will no longer be permanently hostile. Relations will be reset to -50.</SEXF_RedeemConfirm>
+	<SEXF_RedeemConfirm>Pay {0} silver to {1}?\n\nAll warnings will be cleared and the faction will no longer be permanently hostile.</SEXF_RedeemConfirm>
 	<SEXF_RedeemDone>{0} accepted the exceptional fine. Warnings are cleared and the faction is no longer hostile. Relations: -50.</SEXF_RedeemDone>
 
 	<!-- Settings -->

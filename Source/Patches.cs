@@ -157,7 +157,16 @@ namespace SovereigntyFines
             // 1. permanentEnemy must be off or the goodwill cannot change;
             // 2. relation first, then MachinistsUpset, otherwise WorldComponentTick re-triggers the permanent enemy.
             faction.def.permanentEnemy = false;
-            faction.TryAffectGoodwillWith(player, ResetGoodwill - faction.PlayerGoodwill, false, false);
+            int before = faction.PlayerGoodwill;
+            bool changed = faction.TryAffectGoodwillWith(player, ResetGoodwill - before, false, false);
+            if (faction.PlayerGoodwill != ResetGoodwill)
+            {
+                // The game refused or ignored the change: write the base goodwill on both relations directly.
+                Log.Warning("[SovereigntyFines] TryAffectGoodwillWith returned " + changed + ", goodwill " + before
+                    + " -> " + faction.PlayerGoodwill + ". Forcing " + ResetGoodwill + ".");
+                ForceGoodwill(faction, player);
+                ForceGoodwill(player, faction);
+            }
             SetNeutral(faction, player);
             SetNeutral(player, faction);
             if (faction.PlayerGoodwill != ResetGoodwill)
@@ -170,6 +179,18 @@ namespace SovereigntyFines
             FineGameComponent.Instance?.Clear();
 
             Messages.Message("SEXF_RedeemDone".Translate(faction.Name), MessageTypeDefOf.PositiveEvent, false);
+        }
+
+        private static void ForceGoodwill(Faction a, Faction b)
+        {
+            FactionRelation relation = a.RelationWith(b, true);
+            System.Reflection.FieldInfo field = HarmonyLib.AccessTools.Field(typeof(FactionRelation), "baseGoodwill");
+            if (relation == null || field == null)
+            {
+                Log.Error("[SovereigntyFines] Cannot write FactionRelation.baseGoodwill.");
+                return;
+            }
+            field.SetValue(relation, ResetGoodwill);
         }
 
         // Going from -100 to -50 does not leave Hostile by itself (the game switches back to Neutral at >= 0).
