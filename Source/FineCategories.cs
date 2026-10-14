@@ -20,11 +20,12 @@ namespace SovereigntyFines
         public readonly bool SupportsPerElement;
         public readonly int DefaultPerElement;
         public readonly int DefaultFixed;
+        public readonly int DefaultRelationLoss;
         public readonly string RequiredModId;
         public readonly string RequiredModLabel;
         public readonly Func<Map, int> Counter;
 
-        public FineCategory(string id, string letterKey, bool supportsPerElement, int defaultPer, int defaultFixed,
+        public FineCategory(string id, string letterKey, bool supportsPerElement, int defaultPer, int defaultFixed, int defaultRelationLoss,
             Func<Map, int> counter, string requiredModId = null, string requiredModLabel = null)
         {
             Id = id;
@@ -32,6 +33,7 @@ namespace SovereigntyFines
             SupportsPerElement = supportsPerElement;
             DefaultPerElement = defaultPer;
             DefaultFixed = defaultFixed;
+            DefaultRelationLoss = defaultRelationLoss;
             Counter = counter;
             RequiredModId = requiredModId;
             RequiredModLabel = requiredModLabel;
@@ -97,40 +99,40 @@ namespace SovereigntyFines
         // Same order as SEX_PolicyManager.MachinistInspection().
         public static readonly List<FineCategory> All = new List<FineCategory>
         {
-            new FineCategory("Plants", "SEX_ForbiddenPlants", false, 0, 300,
+            new FineCategory("Plants", "SEX_ForbiddenPlants", false, 0, 300, 3,
                 map => CountThings(map, ThingRequestGroup.Plant, Sets.Get("ForbiddenPlants"), false)),
 
-            new FineCategory("Slaves", "SEX_ForbiddenSlaves", true, 200, 600,
+            new FineCategory("Slaves", "SEX_ForbiddenSlaves", true, 200, 600, 6,
                 map => CountPawns(map, p => p.IsSlave)),
 
-            new FineCategory("Animals", "SEX_ForbiddenAnimals", true, 75, 250,
+            new FineCategory("Animals", "SEX_ForbiddenAnimals", true, 75, 250, 3,
                 map =>
                 {
                     HashSet<string> set = Sets.Get("ForbiddenAnimals");
                     return CountPawns(map, p => p.RaceProps != null && p.RaceProps.Animal && set.Contains(p.def.defName));
                 }),
 
-            new FineCategory("Mechs", "SEX_ForbiddenMechs", true, 100, 400,
+            new FineCategory("Mechs", "SEX_ForbiddenMechs", true, 100, 400, 4,
                 map => CountPawns(map, p => p.RaceProps.IsMechanoid)),
 
-            new FineCategory("Androids", "SEX_ForbiddenAndroids", true, 400, 1000,
+            new FineCategory("Androids", "SEX_ForbiddenAndroids", true, 400, 1000, 8,
                 map => CountColonistsWithGene(map, Sets.Get("ForbiddenGenes")),
                 "vanillaracesexpanded.android", "Vanilla Races Expanded - Android"),
 
-            new FineCategory("Cannibal", "SEX_CannibalItems", true, 25, 150,
+            new FineCategory("Cannibal", "SEX_CannibalItems", true, 25, 150, 2,
                 map => CountThings(map, ThingRequestGroup.HaulableAlways, Sets.Get("CannibalItems"), true)),
 
-            new FineCategory("Drugs", "SEX_Drugs", true, 100, 300,
+            new FineCategory("Drugs", "SEX_Drugs", true, 100, 300, 3,
                 map => CountThings(map, ThingRequestGroup.HaulableAlways, Sets.Get("Drugs"), true)),
 
-            new FineCategory("Antigrain", "SEX_Anti", true, 400, 800,
+            new FineCategory("Antigrain", "SEX_Anti", true, 400, 800, 6,
                 map => CountThings(map, ThingRequestGroup.HaulableAlways, Sets.Get("Antigrain"), true)),
 
-            new FineCategory("Blazebulb", "SEX_Blazebulb", false, 0, 250,
+            new FineCategory("Blazebulb", "SEX_Blazebulb", false, 0, 250, 2,
                 map => CountThings(map, ThingRequestGroup.Plant, Sets.Get("CombustiblePlants"), false),
                 "CETeam.CombatExtended", "Combat Extended"),
 
-            new FineCategory("Bloodfeeders", "SEX_Bloodfeeders", true, 400, 1000,
+            new FineCategory("Bloodfeeders", "SEX_Bloodfeeders", true, 400, 1000, 8,
                 map => CountColonistsWithGene(map, Sets.Get("BloodfeederGenes")))
         };
 

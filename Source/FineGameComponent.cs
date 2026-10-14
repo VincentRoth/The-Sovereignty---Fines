@@ -12,12 +12,14 @@ namespace SovereigntyFines
         public int total;
         public int expiryTick;
         public int mapId = -1;
+        public int extraLoss; // goodwill points lost on top if the fine is not paid
 
         public void ExposeData()
         {
             Scribe_Values.Look(ref total, "total");
             Scribe_Values.Look(ref expiryTick, "expiryTick");
             Scribe_Values.Look(ref mapId, "mapId", -1);
+            Scribe_Values.Look(ref extraLoss, "extraLoss");
         }
 
         public Map GetMap()
@@ -64,7 +66,7 @@ namespace SovereigntyFines
         }
 
         /// <summary>Creates the pending fine and the choice letter (one day to pay).</summary>
-        public void Offer(Map map, string breakdown, int total)
+        public void Offer(Map map, string breakdown, int total, int baseLoss, int extraLoss)
         {
             SEX_PolicyManager policy = Find.World.GetComponent<SEX_PolicyManager>();
             Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("SEX_Machinists"));
@@ -73,14 +75,23 @@ namespace SovereigntyFines
             {
                 total = total,
                 expiryTick = Find.TickManager.TicksGame + GenDate.TicksPerDay,
-                mapId = map.uniqueID
+                mapId = map.uniqueID,
+                extraLoss = extraLoss
             };
+
+            string relationParagraph = "";
+            if (baseLoss > 0 || extraLoss > 0)
+            {
+                relationParagraph = (extraLoss > 0
+                    ? "SEXF_FineOfferRelationExtra".Translate(faction.NameColored, baseLoss, extraLoss)
+                    : "SEXF_FineOfferRelation".Translate(faction.NameColored, baseLoss)).ToString() + "\n\n";
+            }
 
             // LetterDef SEXF_FineOffer (1.6/Defs/LetterDefs) maps to ChoiceLetter_FineOffer.
             LetterDef letterDef = DefDatabase<LetterDef>.GetNamed("SEXF_FineOffer");
             ChoiceLetter letter = LetterMaker.MakeLetter(
                 "SEXF_FineOfferTitle".Translate(),
-                "SEXF_FineOfferText".Translate(faction.NameColored, breakdown, total, policy.MachinistWarnings),
+                "SEXF_FineOfferText".Translate(faction.NameColored, breakdown, total, policy.MachinistWarnings, relationParagraph),
                 letterDef,
                 faction);
             letter.StartTimeout(GenDate.TicksPerDay);
@@ -120,7 +131,16 @@ namespace SovereigntyFines
             {
                 return;
             }
+            int extra = pending.extraLoss;
             Clear();
+
+            // Second half of the relation loss, then the warning (unless the game rules made the faction hostile).
+            Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("SEX_Machinists"));
+            RelationUtility.Lose(faction, extra);
+            if (faction != null && faction.HostileTo(Faction.OfPlayer))
+            {
+                return;
+            }
             ApplyWarning(expired);
         }
 

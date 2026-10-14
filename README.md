@@ -34,3 +34,10 @@ Companion mod for "The Sovereignty - A Faction Expansion" (Workshop 3488373703).
 2. Dev menu > Execute incident > `SEX_Inspection`.
 3. Wait for the inspectors to leave (8000-22000 ticks): letters + fine offer appear.
 4. To test redemption: set `MachinistsUpset` to 1 and the faction hostile, then open the comms console.
+
+## Relation loss (added)
+- After each inspection, the faction's goodwill drops for every category found (flat per category, configurable, 0 = none).
+- If the fine is refused or the deadline passes, an extra loss is applied: total = base x "unpaid multiplier" (x2 by default).
+- Applied through the game's own goodwill API, no floor: if relations fall low enough the game turns the faction
+  hostile, and the original mod then makes it a permanent enemy (its own behaviour, not forced by this mod).
+- If the faction turns hostile at inspection time, no fine is offered (paying cannot change it); use the comms console redemption.

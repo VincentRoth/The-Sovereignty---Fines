@@ -3,7 +3,7 @@
 
 	<!-- Fine offer letter -->
 	<SEXF_FineOfferTitle>Inspection fine</SEXF_FineOfferTitle>
-	<SEXF_FineOfferText>The inspectors from {0} found violations of the charter in our colony:\n\n{1}\n\nTotal fine: {2} silver.\n\nIf we pay within one day, the infractions will be overlooked and no warning will be issued. Otherwise, a warning will be recorded against the colony (currently {3}/3).\n\nThe silver must be available in our storage.</SEXF_FineOfferText>
+	<SEXF_FineOfferText>The inspectors from {0} found violations of the charter in our colony:\n\n{1}\n\nTotal fine: {2} silver.\n\n{4}If we pay within one day, the infractions will be overlooked and no warning will be issued. Otherwise, a warning will be recorded against the colony (currently {3}/3).\n\nThe silver must be available in our storage.</SEXF_FineOfferText>
 	<SEXF_PayFineOption>Pay the fine ({0} silver)</SEXF_PayFineOption>
 	<SEXF_RefuseFineOption>Refuse and accept the warning</SEXF_RefuseFineOption>
 	<SEXF_DecideLater>Decide later</SEXF_DecideLater>
@@ -60,5 +60,13 @@
 	<SEXF_Unit_Antigrain>stack</SEXF_Unit_Antigrain>
 	<SEXF_Unit_Blazebulb>plant</SEXF_Unit_Blazebulb>
 	<SEXF_Unit_Bloodfeeders>bloodfeeder</SEXF_Unit_Bloodfeeders>
+
+	<!-- Relation loss -->
+	<SEXF_FineOfferRelation>Our standing with {0} has already dropped by {1} points.</SEXF_FineOfferRelation>
+	<SEXF_FineOfferRelationExtra>Our standing with {0} has already dropped by {1} points. If we refuse or let the deadline pass, it will drop by a further {2} points.</SEXF_FineOfferRelationExtra>
+	<SEXF_RelationLossEnabled>Relation losses enabled</SEXF_RelationLossEnabled>
+	<SEXF_RelationLossEnabledTip>After each inspection, relations with the Sovereignty drop for every category found, and drop again if the fine is not paid. Normal game rules apply: if relations fall low enough the faction becomes hostile (and the original mod then makes it a permanent enemy).</SEXF_RelationLossEnabledTip>
+	<SEXF_UnpaidMultiplier>Total relation loss multiplier if the fine is not paid: x{0}</SEXF_UnpaidMultiplier>
+	<SEXF_RelationLoss>Relation loss: {0} points</SEXF_RelationLoss>
 
 </LanguageData>

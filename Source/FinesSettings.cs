@@ -10,6 +10,7 @@ namespace SovereigntyFines
         public bool perElement = true;
         public int perAmount;
         public int fixedAmount;
+        public int relationLoss;
     }
 
     public class FinesSettings : ModSettings
@@ -21,6 +22,8 @@ namespace SovereigntyFines
         public float globalMultiplier = 1f;
         public int maxBilledElements = DefaultMaxBilled;
         public int redeemFine = DefaultRedeemFine;
+        public bool relationLossEnabled = true;
+        public float unpaidMultiplier = 2f;
 
         private readonly Dictionary<string, CategorySetting> categories = new Dictionary<string, CategorySetting>();
 
@@ -33,7 +36,8 @@ namespace SovereigntyFines
                     included = true,
                     perElement = true,
                     perAmount = cat.DefaultPerElement,
-                    fixedAmount = cat.DefaultFixed
+                    fixedAmount = cat.DefaultFixed,
+                    relationLoss = cat.DefaultRelationLoss
                 };
                 categories[cat.Id] = s;
             }
@@ -46,6 +50,8 @@ namespace SovereigntyFines
             globalMultiplier = 1f;
             maxBilledElements = DefaultMaxBilled;
             redeemFine = DefaultRedeemFine;
+            relationLossEnabled = true;
+            unpaidMultiplier = 2f;
             categories.Clear(); // Get() recreates defaults on demand
         }
 
@@ -56,6 +62,8 @@ namespace SovereigntyFines
             Scribe_Values.Look(ref globalMultiplier, "globalMultiplier", 1f);
             Scribe_Values.Look(ref maxBilledElements, "maxBilledElements", DefaultMaxBilled);
             Scribe_Values.Look(ref redeemFine, "redeemFine", DefaultRedeemFine);
+            Scribe_Values.Look(ref relationLossEnabled, "relationLossEnabled", true);
+            Scribe_Values.Look(ref unpaidMultiplier, "unpaidMultiplier", 2f);
 
             foreach (FineCategory cat in FineCategories.All)
             {
@@ -64,6 +72,7 @@ namespace SovereigntyFines
                 Scribe_Values.Look(ref s.perElement, cat.Id + "_perElement", true);
                 Scribe_Values.Look(ref s.perAmount, cat.Id + "_perAmount", cat.DefaultPerElement);
                 Scribe_Values.Look(ref s.fixedAmount, cat.Id + "_fixedAmount", cat.DefaultFixed);
+                Scribe_Values.Look(ref s.relationLoss, cat.Id + "_relationLoss", cat.DefaultRelationLoss);
             }
         }
     }
@@ -99,6 +108,11 @@ namespace SovereigntyFines
 
             l.Label("SEXF_RedeemFine".Translate(s.redeemFine));
             s.redeemFine = Snap(l.Slider(s.redeemFine, 1000f, 50000f), 250);
+
+            l.CheckboxLabeled("SEXF_RelationLossEnabled".Translate(), ref s.relationLossEnabled,
+                "SEXF_RelationLossEnabledTip".Translate());
+            l.Label("SEXF_UnpaidMultiplier".Translate(s.unpaidMultiplier.ToString("0.0")));
+            s.unpaidMultiplier = Snap(l.Slider(s.unpaidMultiplier * 10f, 10f, 50f), 5) / 10f;
 
             l.Gap(4f);
             if (l.ButtonText("SEXF_ResetDefaults".Translate()))
@@ -145,6 +159,11 @@ namespace SovereigntyFines
                 GUI.color = fixedActive ? Color.white : Color.gray;
                 l.Label("SEXF_AmountFixed".Translate(cs.fixedAmount));
                 cs.fixedAmount = Snap(l.Slider(cs.fixedAmount, 0f, 5000f), 25);
+                GUI.color = Color.white;
+
+                GUI.color = s.relationLossEnabled ? Color.white : Color.gray;
+                l.Label("SEXF_RelationLoss".Translate(cs.relationLoss));
+                cs.relationLoss = Mathf.RoundToInt(l.Slider(cs.relationLoss, 0f, 50f));
                 GUI.color = Color.white;
 
                 l.Outdent();

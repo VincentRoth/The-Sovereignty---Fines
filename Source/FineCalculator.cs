@@ -14,6 +14,7 @@ namespace SovereigntyFines
         public int Billed;     // elements actually billed (after cap); 0 in fixed mode
         public bool FixedMode;
         public int Amount;     // final amount in silver (multiplier applied)
+        public int RelationLoss; // goodwill points lost for this category (0 if disabled)
 
         public string Format()
         {
@@ -75,7 +76,8 @@ namespace SovereigntyFines
                     Count = count,
                     Billed = billed,
                     FixedMode = !perElement,
-                    Amount = Mathf.RoundToInt(baseAmount * settings.globalMultiplier)
+                    Amount = Mathf.RoundToInt(baseAmount * settings.globalMultiplier),
+                    RelationLoss = settings.relationLossEnabled ? cs.relationLoss : 0
                 });
             }
 
@@ -85,6 +87,30 @@ namespace SovereigntyFines
         public static int Total(List<FineLine> lines)
         {
             return lines.Sum(l => l.Amount);
+        }
+
+        public static int TotalRelationLoss(List<FineLine> lines)
+        {
+            return lines.Sum(l => l.RelationLoss);
+        }
+    }
+
+    /// <summary>Goodwill loss with the Sovereignty, through the game's own API so normal rules apply
+    /// (messages, hostility threshold...). No floor: if the faction turns hostile it is by the game rules.</summary>
+    internal static class RelationUtility
+    {
+        public static void Lose(Faction faction, int points)
+        {
+            if (faction == null || points <= 0)
+            {
+                return;
+            }
+            int before = faction.PlayerGoodwill;
+            faction.TryAffectGoodwillWith(Faction.OfPlayer, -points, true, true);
+            if (Prefs.DevMode)
+            {
+                Log.Message("[SovereigntyFines] Relation loss requested: -" + points + " (goodwill " + before + " -> " + faction.PlayerGoodwill + ")");
+            }
         }
     }
 

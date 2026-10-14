@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using RimWorld;
 using SEX_Machinists;
+using UnityEngine;
 using Verse;
 
 namespace SovereigntyFines
@@ -104,6 +105,16 @@ namespace SovereigntyFines
                 Find.LetterStack.ReceiveLetter(key.Translate(), (key + "Description").Translate(), LetterDefOf.NeutralEvent);
             }
 
+            // Relation loss is applied right away, whatever the player decides about the fine.
+            Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("SEX_Machinists"));
+            int baseLoss = FineCalculator.TotalRelationLoss(lines);
+            RelationUtility.Lose(faction, baseLoss);
+            if (faction != null && faction.HostileTo(Faction.OfPlayer))
+            {
+                // The game rules made the faction hostile: no fine can change that.
+                return;
+            }
+
             FineGameComponent comp = FineGameComponent.Instance;
             if (comp == null)
             {
@@ -127,7 +138,8 @@ namespace SovereigntyFines
             }
 
             string breakdown = string.Join("\n", lines.ConvertAll(l => l.Format()));
-            comp.Offer(map, breakdown, total);
+            int extraLoss = Mathf.RoundToInt(baseLoss * (FinesMod.Settings.unpaidMultiplier - 1f));
+            comp.Offer(map, breakdown, total, baseLoss, extraLoss);
         }
     }
 
