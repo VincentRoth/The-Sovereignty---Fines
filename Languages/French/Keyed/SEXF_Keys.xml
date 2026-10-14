@@ -65,8 +65,9 @@
 	<SEXF_FineOfferRelation>Notre réputation auprès de {0} a déjà baissé de {1} points.</SEXF_FineOfferRelation>
 	<SEXF_FineOfferRelationExtra>Notre réputation auprès de {0} a déjà baissé de {1} points. Si nous refusons ou laissons passer le délai, elle baissera encore de {2} points.</SEXF_FineOfferRelationExtra>
 	<SEXF_RelationLossEnabled>Pertes de relation activées</SEXF_RelationLossEnabled>
-	<SEXF_RelationLossEnabledTip>Après chaque inspection, la relation avec la Souveraineté baisse pour chaque catégorie trouvée, et baisse de nouveau si l'amende n'est pas payée. Les règles normales du jeu s'appliquent : si la relation tombe assez bas, la faction devient hostile (et le mod d'origine en fait alors un ennemi permanent).</SEXF_RelationLossEnabledTip>
+	<SEXF_RelationLossEnabledTip>Après chaque inspection, la relation avec la Souveraineté baisse pour chaque catégorie trouvée, et baisse de nouveau si l'amende n'est pas payée. Les pertes ne font jamais descendre la relation sous -74 : à -75 la faction deviendrait hostile, et seuls les avertissements doivent y mener.</SEXF_RelationLossEnabledTip>
 	<SEXF_UnpaidMultiplier>Multiplicateur de la perte de relation totale si l'amende n'est pas payée : x{0}</SEXF_UnpaidMultiplier>
 	<SEXF_RelationLoss>Perte de relation : {0} points</SEXF_RelationLoss>
 
+	<SEXF_RelationLost>Relation avec {0} : baisse de {1} (désormais {2}).</SEXF_RelationLost>
 </LanguageData>

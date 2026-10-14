@@ -95,22 +95,62 @@ namespace SovereigntyFines
         }
     }
 
-    /// <summary>Goodwill loss with the Sovereignty, through the game's own API so normal rules apply
-    /// (messages, hostility threshold...). No floor: if the faction turns hostile it is by the game rules.</summary>
+    /// <summary>
+    /// Goodwill changes with the Sovereignty. Losses never take the relation below GoodwillFloor:
+    /// at -75 the game turns the faction hostile and the original mod then makes it a permanent enemy.
+    /// Only the warnings are meant to lead to that. Values are written exactly (the game's own API
+    /// may adjust amounts), and no hostility check is triggered since the floor is above the threshold.
+    /// </summary>
     internal static class RelationUtility
     {
-        public static void Lose(Faction faction, int points)
+        public const int GoodwillFloor = -74;
+
+        /// <summary>How many points can actually be lost without going below the floor.</summary>
+        public static int Clamp(Faction faction, int points)
         {
             if (faction == null || points <= 0)
             {
-                return;
+                return 0;
+            }
+            return Mathf.Clamp(points, 0, Mathf.Max(0, faction.PlayerGoodwill - GoodwillFloor));
+        }
+
+        /// <summary>Applies the loss (clamped) and returns the number of points actually lost.</summary>
+        public static int Lose(Faction faction, int points)
+        {
+            int applied = Clamp(faction, points);
+            if (applied <= 0)
+            {
+                return 0;
             }
             int before = faction.PlayerGoodwill;
-            faction.TryAffectGoodwillWith(Faction.OfPlayer, -points, true, true);
+            int target = before - applied;
+            Faction player = Faction.OfPlayer;
+            if (!SetBaseGoodwill(faction, player, target) || !SetBaseGoodwill(player, faction, target))
+            {
+                // Field not reachable: fall back on the game's API (amount already clamped).
+                faction.TryAffectGoodwillWith(player, -applied, false, false);
+            }
             if (Prefs.DevMode)
             {
-                Log.Message("[SovereigntyFines] Relation loss requested: -" + points + " (goodwill " + before + " -> " + faction.PlayerGoodwill + ")");
+                Log.Message("[SovereigntyFines] Relation loss: -" + applied + " (requested " + points + ", goodwill " + before + " -> " + faction.PlayerGoodwill + ")");
             }
+            Messages.Message("SEXF_RelationLost".Translate(faction.Name, applied, faction.PlayerGoodwill), MessageTypeDefOf.NegativeEvent, false);
+            return applied;
+        }
+
+        /// <summary>Writes FactionRelation.baseGoodwill directly (reflection).</summary>
+        public static bool SetBaseGoodwill(Faction a, Faction b, int value)
+        {
+            FactionRelation relation = a.RelationWith(b, true);
+            System.Reflection.FieldInfo field = HarmonyLib.AccessTools.Field(typeof(FactionRelation), "baseGoodwill");
+            if (relation == null || field == null)
+            {
+                Log.Error("[SovereigntyFines] Cannot write FactionRelation.baseGoodwill.");
+                return false;
+            }
+            field.SetValue(relation, value);
+            return true;
         }
     }
 

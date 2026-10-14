@@ -107,8 +107,8 @@ namespace SovereigntyFines
 
             // Relation loss is applied right away, whatever the player decides about the fine.
             Faction faction = Find.FactionManager.FirstFactionOfDef(FactionDef.Named("SEX_Machinists"));
-            int baseLoss = FineCalculator.TotalRelationLoss(lines);
-            RelationUtility.Lose(faction, baseLoss);
+            int requestedLoss = FineCalculator.TotalRelationLoss(lines);
+            int baseLoss = RelationUtility.Lose(faction, requestedLoss);
             if (faction != null && faction.HostileTo(Faction.OfPlayer))
             {
                 // The game rules made the faction hostile: no fine can change that.
@@ -138,7 +138,9 @@ namespace SovereigntyFines
             }
 
             string breakdown = string.Join("\n", lines.ConvertAll(l => l.Format()));
-            int extraLoss = Mathf.RoundToInt(baseLoss * (FinesMod.Settings.unpaidMultiplier - 1f));
+            // Extra loss if unpaid, computed on the requested loss and limited by the floor.
+            int extraLoss = RelationUtility.Clamp(faction,
+                Mathf.RoundToInt(requestedLoss * (FinesMod.Settings.unpaidMultiplier - 1f)));
             comp.Offer(map, breakdown, total, baseLoss, extraLoss);
         }
     }
@@ -176,8 +178,8 @@ namespace SovereigntyFines
                 // The game refused or ignored the change: write the base goodwill on both relations directly.
                 Log.Warning("[SovereigntyFines] TryAffectGoodwillWith returned " + changed + ", goodwill " + before
                     + " -> " + faction.PlayerGoodwill + ". Forcing " + ResetGoodwill + ".");
-                ForceGoodwill(faction, player);
-                ForceGoodwill(player, faction);
+                RelationUtility.SetBaseGoodwill(faction, player, ResetGoodwill);
+                RelationUtility.SetBaseGoodwill(player, faction, ResetGoodwill);
             }
             SetNeutral(faction, player);
             SetNeutral(player, faction);
@@ -191,18 +193,6 @@ namespace SovereigntyFines
             FineGameComponent.Instance?.Clear();
 
             Messages.Message("SEXF_RedeemDone".Translate(faction.Name), MessageTypeDefOf.PositiveEvent, false);
-        }
-
-        private static void ForceGoodwill(Faction a, Faction b)
-        {
-            FactionRelation relation = a.RelationWith(b, true);
-            System.Reflection.FieldInfo field = HarmonyLib.AccessTools.Field(typeof(FactionRelation), "baseGoodwill");
-            if (relation == null || field == null)
-            {
-                Log.Error("[SovereigntyFines] Cannot write FactionRelation.baseGoodwill.");
-                return;
-            }
-            field.SetValue(relation, ResetGoodwill);
         }
 
         // Going from -100 to -50 does not leave Hostile by itself (the game switches back to Neutral at >= 0).

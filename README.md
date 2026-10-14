@@ -35,9 +35,16 @@ Companion mod for "The Sovereignty - A Faction Expansion" (Workshop 3488373703).
 3. Wait for the inspectors to leave (8000-22000 ticks): letters + fine offer appear.
 4. To test redemption: set `MachinistsUpset` to 1 and the faction hostile, then open the comms console.
 
-## Relation loss (added)
+## Relation loss
 - After each inspection, the faction's goodwill drops for every category found (flat per category, configurable, 0 = none).
 - If the fine is refused or the deadline passes, an extra loss is applied: total = base x "unpaid multiplier" (x2 by default).
-- Applied through the game's own goodwill API, no floor: if relations fall low enough the game turns the faction
-  hostile, and the original mod then makes it a permanent enemy (its own behaviour, not forced by this mod).
-- If the faction turns hostile at inspection time, no fine is offered (paying cannot change it); use the comms console redemption.
+- Fixed floor at -74 (not configurable): at -75 the game turns the faction hostile and the original mod makes it a
+  permanent enemy. Only the warnings should lead to that, so losses never go below -74.
+- Values are written exactly on both relations (the game's own API may adjust amounts).
+- If the faction is already hostile at inspection time, no fine is offered; use the comms console redemption.
+
+## French translation (Languages/French)
+- `Keyed/SEXF_Keys.xml`: this mod's texts.
+- `Keyed/Misc_Gameplay.xml`: texts of the original mod (keys SEX_*).
+- `DefInjected/`: texts of the original mod's definitions (factions, backstories, pawn kinds, crates...).
+  The game requires one folder per definition type, hence one file per type.

@@ -80,7 +80,7 @@ namespace SovereigntyFines
     internal static class SettingsWindow
     {
         private static Vector2 scroll;
-        private static float viewHeight = 2000f;
+        private static float viewHeight = 6000f;
 
         private static int Snap(float value, int step)
         {
@@ -93,7 +93,9 @@ namespace SovereigntyFines
 
             Rect view = new Rect(0f, 0f, inRect.width - 20f, viewHeight);
             Widgets.BeginScrollView(inRect, ref scroll, view);
-            Listing_Standard l = new Listing_Standard();
+            // maxOneColumn: otherwise the listing wraps into extra (off-screen) columns when the content is taller
+            // than the view rect, which hid every option after the first two.
+            Listing_Standard l = new Listing_Standard { maxOneColumn = true };
             l.Begin(view);
 
             l.CheckboxLabeled("SEXF_InspectionEnabled".Translate(), ref s.inspectionEnabled,
