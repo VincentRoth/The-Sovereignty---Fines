@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SEX_WeaponCrateVertical.label>caisse militaire</SEX_WeaponCrateVertical.label>
+  <SEX_WeaponCrateVertical.description>Une caisse militaire pour stocker du matériel. On peut la forcer pour révéler le butin qu'elle contient.</SEX_WeaponCrateVertical.description>
+  <SEX_WeaponCrateHorizontal.label>caisse militaire</SEX_WeaponCrateHorizontal.label>
+  <SEX_WeaponCrateHorizontal.description>Une caisse militaire pour stocker des armes. On peut la forcer pour révéler le butin qu'elle contient.</SEX_WeaponCrateHorizontal.description>
+  <SEX_ArmoryCrateVertical.label>caisse d'armurerie</SEX_ArmoryCrateVertical.label>
+  <SEX_ArmoryCrateVertical.description>Une caisse militaire pour stocker des armes. On peut la forcer pour révéler le butin qu'elle contient.</SEX_ArmoryCrateVertical.description>
+  <SEX_ArmoryCrateHorizontal.label>caisse d'armurerie</SEX_ArmoryCrateHorizontal.label>
+  <SEX_ArmoryCrateHorizontal.description>Une caisse militaire pour stocker du matériel. On peut la forcer pour révéler le butin qu'elle contient.</SEX_ArmoryCrateHorizontal.description>
+  <SEX_MedicalCrate.label>caisse médicale</SEX_MedicalCrate.label>
+  <SEX_MedicalCrate.description>Une caisse stérile contenant des fournitures médicales. On peut la forcer pour révéler le butin qu'elle contient.</SEX_MedicalCrate.description>
+  <SEX_ResourceCrateVertical.label>caisse d'entrepôt</SEX_ResourceCrateVertical.label>
+  <SEX_ResourceCrateVertical.description>Une solide caisse d'entrepôt. On peut la forcer pour révéler le butin qu'elle contient.</SEX_ResourceCrateVertical.description>
+  <SEX_ResourceCrateHorizontal.label>caisse d'entrepôt</SEX_ResourceCrateHorizontal.label>
+  <SEX_ResourceCrateHorizontal.description>Une solide caisse d'entrepôt. On peut la forcer pour révéler le butin qu'elle contient.</SEX_ResourceCrateHorizontal.description>
+  <SEX_ResourceCrateSmall.label>caisse d'entrepôt</SEX_ResourceCrateSmall.label>
+  <SEX_ResourceCrateSmall.description>Une petite et solide caisse d'entrepôt. On peut la forcer pour révéler le butin qu'elle contient.</SEX_ResourceCrateSmall.description>
+  <SEX_FuelCrate.label>caisse de carburant</SEX_FuelCrate.label>
+  <SEX_FuelCrate.description>Une solide caisse pour stocker des barils de chemfuel. On peut la forcer pour révéler le butin qu'elle contient.</SEX_FuelCrate.description>
+  <SEX_ComponentCrate.label>caisse de matériel</SEX_ComponentCrate.label>
+  <SEX_ComponentCrate.description>Une petite et solide caisse conçue pour stocker des composants. On peut la forcer pour révéler le butin qu'elle contient.</SEX_ComponentCrate.description>
+  <SEX_ProduceCrate.label>caisse de produits frais</SEX_ProduceCrate.label>
+  <SEX_ProduceCrate.description>Une petite caisse pour stocker des produits frais et de la volaille. On peut la forcer pour révéler le butin qu'elle contient.</SEX_ProduceCrate.description>
+  <SEX_AnimalProduceCrate.label>caisse d'élevage</SEX_AnimalProduceCrate.label>
+  <SEX_AnimalProduceCrate.description>Une petite caisse pour stocker des fournitures d'élevage. On peut la forcer pour révéler le butin qu'elle contient.</SEX_AnimalProduceCrate.description>
+  <SEX_TreasureCrateVertical.label>caisse verrouillée</SEX_TreasureCrateVertical.label>
+  <SEX_TreasureCrateVertical.description>Une caisse verrouillée pour les objets de grande valeur. On peut la forcer pour révéler le butin qu'elle contient.</SEX_TreasureCrateVertical.description>
+  <SEX_TreasureCrateHorizontal.label>caisse verrouillée</SEX_TreasureCrateHorizontal.label>
+  <SEX_TreasureCrateHorizontal.description>Une caisse verrouillée pour les objets de grande valeur. On peut la forcer pour révéler le butin qu'elle contient.</SEX_TreasureCrateHorizontal.description>
+  <SEX_PolicyCharter.label>charte politique</SEX_PolicyCharter.label>
+  <SEX_PolicyCharter.description>Un livre contenant l'ensemble des règles que la souveraineté attend de toutes les entités politiques indépendantes. Le texte est surtout du jargon juridique, mais la section la plus importante décrit les termes et conditions à respecter pour éviter les hostilités avec les cités-États.</SEX_PolicyCharter.description>
+</LanguageData>

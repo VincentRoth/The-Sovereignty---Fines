@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SEX_MarksmanCommand.label>ordre du tireur d'élite</SEX_MarksmanCommand.label>
+  <SEX_MarksmanCommand.description>Cette personne utilise une capacité spéciale pour annoncer les tirs. Tous ceux situés dans le rayon d'effet gagnent des bonus de tir.</SEX_MarksmanCommand.description>
+  <SEX_CombatMedic.label>ordre du médic</SEX_CombatMedic.label>
+  <SEX_CombatMedic.description>Cette personne aide à atténuer les blessures des soldats proches.</SEX_CombatMedic.description>
+  <SEX_CombatMedicBuff.label>contrôle des dégâts</SEX_CombatMedicBuff.label>
+  <SEX_CombatMedicBuff.description>Un médecin de combat proche atténue les blessures que cette personne pourrait subir.</SEX_CombatMedicBuff.description>
+</LanguageData>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	Traduction française des textes du mod d'origine « The Sovereignty - A Faction Expansion ».
+	Les clés (SEX_*) sont celles du mod d'origine : elles sont chargées quand ce mod est actif.
+	Vocabulaire aligné sur les traductions officielles du jeu (argent, esclave, mécanoïde, sanguophage, suceur de sang...).
+	Note : le mod d'origine déclare deux fois la clé SEX_MachinistInspectionLeaving (inspecteurs et envoyé) ;
+	la traduction ci-dessous est volontairement neutre pour convenir aux deux cas.
+-->
+<LanguageData>
+	<SEX_MachinistRulesPartOne>Reconnaissance politique</SEX_MachinistRulesPartOne>
+	<SEX_MachinistRulesPartTwo>texte provisoire 2</SEX_MachinistRulesPartTwo>
+
+	<SEX_MachinistRetribution>Vos actes illégaux ont irrité les inspecteurs. Ils ont délivré un avertissement à votre colonie.</SEX_MachinistRetribution>
+	<SEX_MachinistsBecomePermanentEnemy>Les cités-États vous sont désormais définitivement hostiles en raison de votre mépris pour leurs lois.</SEX_MachinistsBecomePermanentEnemy>
+
+	<SEX_Reinforcements>Patrouille en renfort</SEX_Reinforcements>
+	<SEX_ReinforcementsDescription>Une cité-État voisine a dépêché une petite force d'intervention pour vous aider contre le raid imminent. Elle se met en position pour vous prêter main-forte.</SEX_ReinforcementsDescription>
+
+	<SEX_PatrolPassing>Une patrouille de {0} passe dans les environs.</SEX_PatrolPassing>
+
+	<SEX_Demands>Exigences</SEX_Demands>
+	<SEX_DemandsDescription>L'envoyé a prononcé un long discours, plutôt fastidieux, sur la grandeur des cités-États, avant de formuler une série d'exigences et d'offres. Ces « propositions généreuses » équivalent à un ultimatum à peine voilé.\n\nSe plier à ces exigences vaudrait à notre colonie la reconnaissance des cités-États et ouvrirait de nombreuses perspectives, mais cela reviendrait à nous soumettre à leur autorité.\n\nNous pouvons aussi refuser ces conditions. Tuer l'envoyé lors d'une cérémonie enverrait un message fort sur l'indépendance de la colonie et pourrait nous valoir le respect de certaines factions qui abhorrent les cités-États. Mais cela mènerait presque certainement à la guerre, car les cités-États risquent fort de ne pas pardonner l'affront.</SEX_DemandsDescription>
+
+	<SEX_MachinistInspectionTitle>Inspection</SEX_MachinistInspectionTitle>
+	<SEX_MachinistInspection>Une force d'intervention de {0} est venue inspecter la colonie.\n\nElle est ici pour s'assurer que notre colonie respecte les règles fixées par la charte politique. Ces hommes armés ne quitteront pas volontairement la colonie avant d'avoir terminé leur inspection.\n\nCette intrusion pourrait contrarier certains de nos colons. Envisagez une résistance armée si l'inspection constitue un affront à l'indépendance de la colonie.</SEX_MachinistInspection>
+	<SEX_MachinistInspectionLeaving>Les représentants de {0} repartent.</SEX_MachinistInspectionLeaving>
+
+	<SEX_MachinistEnvoyTitle>Envoyé diplomatique</SEX_MachinistEnvoyTitle>
+	<SEX_MachinistEnvoy>Un envoyé diplomatique de {0} rend visite à la colonie.\n\nLes cités-États machinistes forment une coalition souple de villes indépendantes qui se sont regroupées pour se protéger et s'entraider. Le diplomate à la tête de cette mission représente le gouvernement fédéral, venu apporter des nouvelles et établir des relations. Il est accompagné d'une petite escorte de gardes du corps.</SEX_MachinistEnvoy>
+
+	<SEX_ForbiddenPlants>Cultures illégales découvertes</SEX_ForbiddenPlants>
+	<SEX_ForbiddenPlantsDescription>Les inspecteurs ont découvert des plantes illégales cultivées dans notre colonie.\n\nNous devrions détruire ou récolter ces plantes si nous voulons respecter les lois des cités-États.</SEX_ForbiddenPlantsDescription>
+
+	<SEX_ForbiddenSlaves>Esclaves découverts</SEX_ForbiddenSlaves>
+	<SEX_ForbiddenSlavesDescription>Les inspecteurs ont découvert des esclaves exploités dans notre colonie.\n\nNous devrions vendre, tuer ou libérer les esclaves si nous voulons respecter les lois des cités-États.</SEX_ForbiddenSlavesDescription>
+
+	<SEX_ForbiddenAnimals>Animaux illégaux découverts</SEX_ForbiddenAnimals>
+	<SEX_ForbiddenAnimalsDescription>Les inspecteurs ont découvert des animaux illégaux élevés dans notre colonie.\n\nNous devrions abattre, vendre ou relâcher ces animaux si nous voulons respecter les lois des cités-États.</SEX_ForbiddenAnimalsDescription>
+
+	<SEX_ForbiddenMechs>Mécanoïdes illégaux découverts</SEX_ForbiddenMechs>
+	<SEX_ForbiddenMechsDescription>Les inspecteurs ont découvert des mécanoïdes illégaux utilisés dans notre colonie.\n\nNous devrions démanteler ces mécanoïdes si nous voulons respecter les lois des cités-États.</SEX_ForbiddenMechsDescription>
+
+	<SEX_ForbiddenAndroids>Personas illégales découvertes</SEX_ForbiddenAndroids>
+	<SEX_ForbiddenAndroidsDescription>Les inspecteurs ont découvert des androïdes illégaux utilisés dans notre colonie.\n\nNous devrions tuer, vendre ou libérer ces androïdes si nous voulons respecter les lois des cités-États.</SEX_ForbiddenAndroidsDescription>
+
+	<SEX_CannibalItems>Restes humains illégaux découverts</SEX_CannibalItems>
+	<SEX_CannibalItemsDescription>Les inspecteurs ont découvert des restes humains illégaux utilisés dans notre colonie.\n\nNous devrions vendre, consommer ou détruire ces restes si nous voulons respecter les lois des cités-États.</SEX_CannibalItemsDescription>
+
+	<SEX_Drugs>Stupéfiants illégaux découverts</SEX_Drugs>
+	<SEX_DrugsDescription>Les inspecteurs ont découvert des stupéfiants illégaux dans notre colonie.\n\nNous devrions détruire, vendre ou consommer ces stupéfiants si nous voulons respecter les lois des cités-États.</SEX_DrugsDescription>
+
+	<SEX_Anti>Munitions antimatière illégales découvertes</SEX_Anti>
+	<SEX_AntiDescription>Les inspecteurs ont découvert des munitions antimatière illégales dans notre colonie.\n\nNous devrions utiliser, vendre ou détruire ces munitions si nous voulons respecter les lois des cités-États.</SEX_AntiDescription>
+
+	<SEX_Blazebulb>Blazebulb illégal découvert</SEX_Blazebulb>
+	<SEX_BlazebulbDescription>Les inspecteurs ont découvert des plants de blazebulb illégaux cultivés dans notre colonie.\n\nNous devrions détruire ou récolter ces plants si nous voulons respecter les lois des cités-États.</SEX_BlazebulbDescription>
+
+	<SEX_Bloodfeeders>Suceurs de sang illégaux découverts</SEX_Bloodfeeders>
+	<SEX_BloodfeedersDescription>Les inspecteurs ont découvert des suceurs de sang hébergés dans notre colonie.\n\nNous devrions tuer, vendre ou bannir ces suceurs de sang si nous voulons respecter les lois des cités-États.</SEX_BloodfeedersDescription>
+
+	<SEX_Banned>Interdit</SEX_Banned>
+
+	<SEX_DrugCrops>Culture de psychoactifs</SEX_DrugCrops>
+	<SEX_DrugCropsDescription>La culture de psychoactifs, comme les plantes psychoïdes et leurs dérivés, est interdite par la charte.</SEX_DrugCropsDescription>
+
+	<SEX_HardDrugs>Possession de stupéfiants</SEX_HardDrugs>
+	<SEX_HardDrugsDescription>Toute possession de stupéfiants et de psychoactifs illicites est interdite par la charte. Le texte fait une exception pour le thé Pekoe, à l'intention des xénotypes qui ont une dépendance biologique à la psychite.</SEX_HardDrugsDescription>
+
+	<SEX_Boomalopes>Élevage de bétail combustible</SEX_Boomalopes>
+	<SEX_BoomalopesDescription>L'élevage de boomalopes, de rataboums et d'autre bétail combustible est interdit par la loi « Bombes et Boums » de la charte.</SEX_BoomalopesDescription>
+
+	<SEX_Mechanoids>Mécanoïdes et autres personas</SEX_Mechanoids>
+	<SEX_MechanoidsDescription>Toutes les constructions de sous-personas dotées d'une forme physique, sensibles ou non, sont interdites par la charte. Le texte évoque d'anciens raids de mécanoïdes qui ont dévasté des colonies frontalières et insiste fortement sur le danger potentiel que représentent ces machines.</SEX_MechanoidsDescription>
+
+	<SEX_Slavery>Esclavage</SEX_Slavery>
+	<SEX_SlaveryDescription>Tout esclavage est interdit par la loi « Frontières libres » de la charte.</SEX_SlaveryDescription>
+
+	<SEX_Cannibalism>Cannibalisme</SEX_Cannibalism>
+	<SEX_CannibalismDescription>Le cannibalisme, sous toutes ses formes, est interdit par la charte. Cette interdiction s'étend à l'usage de la peau humaine.</SEX_CannibalismDescription>
+
+	<SEX_Antigrain>Munitions antimatière</SEX_Antigrain>
+	<SEX_AntigrainDescription>Toutes les munitions antimatière sont interdites par la charte. Les technologies antimatière utilisées pour produire de l'énergie sont autorisées, à condition de prendre les précautions de sécurité nécessaires.</SEX_AntigrainDescription>
+
+	<SEX_Sanguophages>Hébergement de suceurs de sang</SEX_Sanguophages>
+	<SEX_SanguophagesDescription>Héberger des suceurs de sang et des sanguophages, y compris leurs thralls et leur descendance, est interdit par la charte. Le texte soutient que leur mode de vie parasitaire est incompatible avec les valeurs de liberté défendues par les cités-États.</SEX_SanguophagesDescription>
+
+	<SEX_CE_Blazebulb>Culture de plantes combustibles</SEX_CE_Blazebulb>
+	<SEX_CE_BlazebulbDescription>La culture de plantes combustibles comme le blazebulb est interdite par la charte. Le texte évoque de grands incendies et des catastrophes causés par des plantations de blazebulb non contrôlées, et insiste fortement sur le risque de désastre écologique de cette pratique.</SEX_CE_BlazebulbDescription>
+
+	<SEX_Sometimes>Parfois</SEX_Sometimes>
+
+	<SEX_Guaranteed>Garanti</SEX_Guaranteed>
+
+	<SEX_Nothing> </SEX_Nothing>
+
+	<SEX_Two>2</SEX_Two>
+
+	<SEX_Recognition>Reconnaissance en tant qu'entité politique</SEX_Recognition>
+	<SEX_RecognitionDescription>Reconnaissance en tant qu'entité politique indépendante : notre colonie serait reconnue comme une entité politique indépendante soumise à l'autorité du gouvernement fédéral. Nous aurions accès au commerce et à d'autres services normalement réservés aux cités-États.</SEX_RecognitionDescription>
+
+	<SEX_RaidAssistance>Aide en cas de raid</SEX_RaidAssistance>
+	<SEX_RaidAssistanceDescription>Le gouvernement fédéral entretient une réserve de forces militaires chargées d'aider les colonies frontalières attaquées. Si elle est disponible, cette force sera immédiatement envoyée en renfort de notre colonie en cas de raid hostile.</SEX_RaidAssistanceDescription>
+
+	<SEX_Traders>Marchands garantis par quadrum</SEX_Traders>
+	<SEX_TradersDescription>Les cités-États disposent de routes commerciales sûres et fiables qui relient les colonies les plus reculées. En tant qu'entité reconnue, notre colonie ferait partie du réseau commercial et recevrait un nombre garanti de marchands chaque quadrum.</SEX_TradersDescription>
+
+</LanguageData>

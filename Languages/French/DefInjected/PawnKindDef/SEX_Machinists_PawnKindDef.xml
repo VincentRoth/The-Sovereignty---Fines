@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SEX_Breacher.label>sapeur d'assaut</SEX_Breacher.label>
+  <SEX_Civilian_Laborer.label>ouvrier</SEX_Civilian_Laborer.label>
+  <SEX_Civilian_LaborerCaravan.label>ouvrier</SEX_Civilian_LaborerCaravan.label>
+  <SEX_Civilian_Apprentice.label>apprenti</SEX_Civilian_Apprentice.label>
+  <SEX_Civilian_Engineer.label>ingénieur</SEX_Civilian_Engineer.label>
+  <SEX_Civilian_Doctor.label>médecin</SEX_Civilian_Doctor.label>
+  <SEX_Civilian_Farmhand.label>ouvrier agricole</SEX_Civilian_Farmhand.label>
+  <SEX_Civilian_FarmhandCaravan.label>ouvrier agricole</SEX_Civilian_FarmhandCaravan.label>
+  <SEX_Civilian_LaborerHireable.label>ouvrier</SEX_Civilian_LaborerHireable.label>
+  <SEX_Civilian_FarmhandHireable.label>ouvrier agricole</SEX_Civilian_FarmhandHireable.label>
+  <SEX_Civilian_DoctorHireable.label>médecin</SEX_Civilian_DoctorHireable.label>
+  <SEX_Civilian_EngineerHireable.label>ingénieur</SEX_Civilian_EngineerHireable.label>
+  <SEX_Commander.label>commandant</SEX_Commander.label>
+  <SEX_Flamer.label>lance-flammes</SEX_Flamer.label>
+  <SEX_Gendarmerie.label>gendarme</SEX_Gendarmerie.label>
+  <SEX_GendarmerieLimited.label>gendarme</SEX_GendarmerieLimited.label>
+  <SEX_GendarmeriePatrol.label>gendarme</SEX_GendarmeriePatrol.label>
+  <SEX_HeavyInfantry.label>infanterie lourde</SEX_HeavyInfantry.label>
+  <SEX_Juggernaut.label>mastodonte</SEX_Juggernaut.label>
+  <SEX_LightMerc.label>mercenaire léger</SEX_LightMerc.label>
+  <SEX_LightMercHireable.label>mercenaire léger</SEX_LightMercHireable.label>
+  <SEX_LightMercLimited.label>mercenaire léger</SEX_LightMercLimited.label>
+  <SEX_LightMercCaravan.label>mercenaire marchand</SEX_LightMercCaravan.label>
+  <SEX_LightMercMarksman.label>tireur d'élite mercenaire</SEX_LightMercMarksman.label>
+  <SEX_LightMercMarksmanHireable.label>tireur d'élite mercenaire</SEX_LightMercMarksmanHireable.label>
+  <SEX_MachineGunner.label>mitrailleur</SEX_MachineGunner.label>
+  <SEX_MachineGunnerLimited.label>mitrailleur</SEX_MachineGunnerLimited.label>
+  <SEX_Marksman.label>tireur d'élite</SEX_Marksman.label>
+  <Sex_MarksmanHireable.label>tireur d'élite mercenaire</Sex_MarksmanHireable.label>
+  <SEX_MarksmanLimited.label>tireur d'élite</SEX_MarksmanLimited.label>
+  <SEX_Medic.label>médic</SEX_Medic.label>
+  <SEX_Civilian_Merchant.label>marchand</SEX_Civilian_Merchant.label>
+  <SEX_Envoy.label>envoyé</SEX_Envoy.label>
+  <SEX_Minutemen.label>milicien</SEX_Minutemen.label>
+  <SEX_Thug.label>voyou</SEX_Thug.label>
+  <SEX_Goon.label>homme de main</SEX_Goon.label>
+  <SEX_Soldier.label>fantassin</SEX_Soldier.label>
+  <SEX_SoldierCaravan.label>soldat marchand</SEX_SoldierCaravan.label>
+  <SEX_SoldierLimited.label>fantassin</SEX_SoldierLimited.label>
+  <SEX_SoldierHireable.label>soldat mercenaire</SEX_SoldierHireable.label>
+</LanguageData>

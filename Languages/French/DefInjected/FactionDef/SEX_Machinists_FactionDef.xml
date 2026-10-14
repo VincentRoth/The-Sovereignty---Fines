@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SEX_FacelessThugs.label>voyous sans visage</SEX_FacelessThugs.label>
+  <SEX_FacelessThugs.pawnSingular>voyou sans visage</SEX_FacelessThugs.pawnSingular>
+  <SEX_FacelessThugs.pawnsPlural>voyous sans visage</SEX_FacelessThugs.pawnsPlural>
+  <SEX_FacelessThugs.fixedName>voyou sans visage</SEX_FacelessThugs.fixedName>
+  <SEX_Machinists.label>cités-États souveraines</SEX_Machinists.label>
+  <SEX_Machinists.description>Ces gens vivent ici depuis des décennies ou des siècles et ont perdu la majeure partie de la technologie qui les a amenés dans ce monde. Ils exploitent des usines, des mines et des centres de recherche.\n\nDes gardiens de la paix et des soldats défendent leurs villes contre les pillards et les bandits.\n\nOrganisés en cités-États, les ressortissants sont généralement hostiles aux étrangers, sans pour autant être totalement impolis. Ils voient dans les étrangers une source potentielle de richesse et une menace pour leur sécurité.</SEX_Machinists.description>
+  <SEX_Machinists.pawnSingular>ressortissant</SEX_Machinists.pawnSingular>
+  <SEX_Machinists.pawnsPlural>ressortissants</SEX_Machinists.pawnsPlural>
+  <SEX_Machinists.leaderTitle>ministre</SEX_Machinists.leaderTitle>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SEX_OpportunitySite_Thugs.questNameRules.rulesStrings>
+    <li>questName(priority=1)-&gt;[thugbase] de [thug]</li>
+    <li>thug-&gt;voyous</li>
+    <li>thug-&gt;pirates</li>
+    <li>thug-&gt;pillards</li>
+    <li>thugbase-&gt;Repaire</li>
+    <li>thugbase-&gt;Forteresse</li>
+    <li>thugbase-&gt;Avant-poste</li>
+  </SEX_OpportunitySite_Thugs.questNameRules.rulesStrings>
+  <SEX_OpportunitySite_Thugs.questDescriptionRules.rulesStrings>
+    <li>questDescription(askerIsNull==true)-&gt;Une patrouille d'une cité-État voisine a repéré un repaire de voyous à proximité [map_definite]. En tant qu'entité politique reconnue, notre colonie a le droit de s'en emparer par la force si elle le souhaite. Ce pourrait être une belle occasion de mettre la main sur de précieuses ressources et du butin.\n\nSi nous choisissons de ne pas le faire, la cité-État finira par envoyer une force militaire pour s'occuper des voyous.</li>
+  </SEX_OpportunitySite_Thugs.questDescriptionRules.rulesStrings>
+</LanguageData>

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MACHINIST_Bookworm.title>rat de bibliothèque</MACHINIST_Bookworm.title>
+  <MACHINIST_Bookworm.titleShort>rat de bibliothèque</MACHINIST_Bookworm.titleShort>
+  <MACHINIST_Bookworm.description>Plutôt que de socialiser avec les autres enfants, [PAWN_nameDef] préférait se perdre dans les livres. [PAWN_pronoun] a appris à lire en autodidacte dès son plus jeune âge grâce aux nombreux livres imprimés dans les cités-États.</MACHINIST_Bookworm.description>
+
+  <MACHINIST_WarRefugee.title>réfugié de guerre</MACHINIST_WarRefugee.title>
+  <MACHINIST_WarRefugee.titleFemale>réfugiée de guerre</MACHINIST_WarRefugee.titleFemale>
+  <MACHINIST_WarRefugee.titleShort>réfugié</MACHINIST_WarRefugee.titleShort>
+  <MACHINIST_WarRefugee.titleShortFemale>réfugiée</MACHINIST_WarRefugee.titleShortFemale>
+  <MACHINIST_WarRefugee.description>La guerre a éclaté dans le foyer de [PAWN_nameDef] alors que [PAWN_pronoun] n'était encore qu'un bébé. Ses parents ont fui en l'emportant, cherchant la sécurité là où ils pouvaient la trouver. Les premiers souvenirs de [PAWN_nameDef] sont ceux de leçons pour apprendre à se défendre.</MACHINIST_WarRefugee.description>
+
+  <MACHINIST_MinerKid.title>mineur</MACHINIST_MinerKid.title>
+  <MACHINIST_MinerKid.titleFemale>mineuse</MACHINIST_MinerKid.titleFemale>
+  <MACHINIST_MinerKid.titleShort>mineur</MACHINIST_MinerKid.titleShort>
+  <MACHINIST_MinerKid.titleShortFemale>mineuse</MACHINIST_MinerKid.titleShortFemale>
+  <MACHINIST_MinerKid.description>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} dans une famille pauvre. Faute de pouvoir payer des études, sa famille l'a envoy{PAWN_gender ? é : ée : é(e)} travailler pour une compagnie minière.</MACHINIST_MinerKid.description>
+
+  <MACHINIST_Brat.title>enfant gâté</MACHINIST_Brat.title>
+  <MACHINIST_Brat.titleFemale>enfant gâtée</MACHINIST_Brat.titleFemale>
+  <MACHINIST_Brat.titleShort>garnement</MACHINIST_Brat.titleShort>
+  <MACHINIST_Brat.titleShortFemale>garnement</MACHINIST_Brat.titleShortFemale>
+  <MACHINIST_Brat.description>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} dans une riche famille de marchands de vieille fortune. [PAWN_pronoun] a rejeté les nombreuses tentatives de ses parents pour l'éduquer et a passé le plus clair de son temps à faire ce qui lui plaisait.</MACHINIST_Brat.description>
+
+  <MACHINIST_DoctorsAid.title>aide du docteur</MACHINIST_DoctorsAid.title>
+  <MACHINIST_DoctorsAid.titleShort>aide du docteur</MACHINIST_DoctorsAid.titleShort>
+  <MACHINIST_DoctorsAid.description>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} pendant une guerre catastrophique. [PAWN_pronoun] a grandi en aidant ses parents dans une infirmerie, à soigner le flot de terribles brûlures venues des champs de bataille. Il lui est resté une peur du feu qui ne l'a jamais quitt{PAWN_gender ? é : ée : é(e)}.</MACHINIST_DoctorsAid.description>
+
+  <MACHINIST_Tinker.title>bricoleur</MACHINIST_Tinker.title>
+  <MACHINIST_Tinker.titleFemale>bricoleuse</MACHINIST_Tinker.titleFemale>
+  <MACHINIST_Tinker.titleShort>bricoleur</MACHINIST_Tinker.titleShort>
+  <MACHINIST_Tinker.titleShortFemale>bricoleuse</MACHINIST_Tinker.titleShortFemale>
+  <MACHINIST_Tinker.description>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} dans une famille d'artisans et a passé l'essentiel de sa jeunesse à bricoler tout ce qui lui tombait sous la main.</MACHINIST_Tinker.description>
+
+  <MACHINIST_RepairKid.title>gamin du garage</MACHINIST_RepairKid.title>
+  <MACHINIST_RepairKid.titleFemale>gamine du garage</MACHINIST_RepairKid.titleFemale>
+  <MACHINIST_RepairKid.titleShort>gamin du garage</MACHINIST_RepairKid.titleShort>
+  <MACHINIST_RepairKid.titleShortFemale>gamine du garage</MACHINIST_RepairKid.titleShortFemale>
+  <MACHINIST_RepairKid.description>[PAWN_nameDef] donnait un coup de main au garage de réparation de sa famille. [PAWN_pronoun] passait le plus clair de ses journées à bricoler des véhicules.</MACHINIST_RepairKid.description>
+
+  <MACHINIST_ConvoyKid.title>enfant du convoi</MACHINIST_ConvoyKid.title>
+  <MACHINIST_ConvoyKid.titleShort>enfant du convoi</MACHINIST_ConvoyKid.titleShort>
+  <MACHINIST_ConvoyKid.description>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} dans une famille de marchands itinérants. [PAWN_pronoun] a vite appris les ficelles du métier et a rapidement aidé à faire tourner l'entreprise familiale. [PAWN_pronoun] a aussi appris deux ou trois choses sur la mécanique grâce aux nombreux véhicules vieillissants de sa famille.</MACHINIST_ConvoyKid.description>
+
+  <MACHINIST_StreetRat.title>rat des rues</MACHINIST_StreetRat.title>
+  <MACHINIST_StreetRat.titleShort>rat des rues</MACHINIST_StreetRat.titleShort>
+  <MACHINIST_StreetRat.description>[PAWN_nameDef] s'est retrouv{PAWN_gender ? é : ée : é(e)} {PAWN_gender ? orphelin : orpheline : orphelin(e)} très jeune. Sans personne pour veiller sur [PAWN_nameDef], [PAWN_pronoun] s'est tourn{PAWN_gender ? é : ée : é(e)} vers la criminalité.</MACHINIST_StreetRat.description>
+
+  <MACHINIST_TimidKid.title>enfant craintif</MACHINIST_TimidKid.title>
+  <MACHINIST_TimidKid.titleFemale>enfant craintive</MACHINIST_TimidKid.titleFemale>
+  <MACHINIST_TimidKid.titleShort>enfant craintif</MACHINIST_TimidKid.titleShort>
+  <MACHINIST_TimidKid.titleShortFemale>enfant craintive</MACHINIST_TimidKid.titleShortFemale>
+  <MACHINIST_TimidKid.description>[PAWN_nameDef] a été victime d'un crime innommable. Depuis, [PAWN_pronoun] a grandi avec une profonde méfiance envers le monde extérieur.</MACHINIST_TimidKid.description>
+
+  <MACHINIST_Delinquent.title>délinquant</MACHINIST_Delinquent.title>
+  <MACHINIST_Delinquent.titleFemale>délinquante</MACHINIST_Delinquent.titleFemale>
+  <MACHINIST_Delinquent.titleShort>délinquant</MACHINIST_Delinquent.titleShort>
+  <MACHINIST_Delinquent.titleShortFemale>délinquante</MACHINIST_Delinquent.titleShortFemale>
+  <MACHINIST_Delinquent.description>[PAWN_nameDef] flirtait avec la délinquance. [PAWN_pronoun] traînait souvent avec de mauvaises fréquentations et avait des ennuis avec la loi.</MACHINIST_Delinquent.description>
+
+  <MACHINIST_ScoutKid.title>éclaireur</MACHINIST_ScoutKid.title>
+  <MACHINIST_ScoutKid.titleFemale>éclaireuse</MACHINIST_ScoutKid.titleFemale>
+  <MACHINIST_ScoutKid.titleShort>éclaireur</MACHINIST_ScoutKid.titleShort>
+  <MACHINIST_ScoutKid.titleShortFemale>éclaireuse</MACHINIST_ScoutKid.titleShortFemale>
+  <MACHINIST_ScoutKid.description>{PAWN_gender ? Fils : Fille : Enfant} d'administrateurs d'une cité-État industrielle, [PAWN_nameDef] a été {PAWN_gender ? inscrit : inscrite : inscrit(e)} à un programme de jeunesse qui enseignait les techniques d'éclaireur militaire.\n\n[PAWN_pronoun] a appris à survivre en pleine nature, à obéir et à ne pas poser de questions.</MACHINIST_ScoutKid.description>
+
+  <MACHINIST_Cader.title>cadet militaire</MACHINIST_Cader.title>
+  <MACHINIST_Cader.titleFemale>cadette militaire</MACHINIST_Cader.titleFemale>
+  <MACHINIST_Cader.titleShort>cadet</MACHINIST_Cader.titleShort>
+  <MACHINIST_Cader.titleShortFemale>cadette</MACHINIST_Cader.titleShortFemale>
+  <MACHINIST_Cader.description>[PAWN_nameDef] a fui sa famille très jeune pour devenir soldat. [PAWN_pronoun] vivait dans les casernes avec les soldats, apprenant le devoir, les armes, la douleur et la victoire.</MACHINIST_Cader.description>
+
+  <MACHINIST_RanchKid.title>enfant de ranch</MACHINIST_RanchKid.title>
+  <MACHINIST_RanchKid.titleShort>enfant de ranch</MACHINIST_RanchKid.titleShort>
+  <MACHINIST_RanchKid.description>[PAWN_nameDef] est n{PAWN_gender ? é : ée : é(e)} et a grandi dans une ferme non loin d'une ville. [PAWN_pronoun] aidait ses parents à travailler la terre et à élever les animaux.</MACHINIST_RanchKid.description>
+
+  <MACHINIST_MercenaryKid.title>enfant mercenaire</MACHINIST_MercenaryKid.title>
+  <MACHINIST_MercenaryKid.titleShort>enfant mercenaire</MACHINIST_MercenaryKid.titleShort>
+  <MACHINIST_MercenaryKid.description>{PAWN_gender ? Descendant : Descendante : Descendant(e)} d'une longue lignée de mercenaires, [PAWN_nameDef] a repris le métier familial. [PAWN_pronoun] tirait avec adresse et savait se débrouiller dans un combat.</MACHINIST_MercenaryKid.description>
+
+  <MACHINIST_ShopKid.title>enfant de la boutique</MACHINIST_ShopKid.title>
+  <MACHINIST_ShopKid.titleShort>enfant de boutique</MACHINIST_ShopKid.titleShort>
+  <MACHINIST_ShopKid.description>La mère de [PAWN_nameDef] était souvent malade, et c'est donc à [PAWN_nameDef] qu'est revenue la charge de tenir le magasin, seule source de revenus de la famille. [PAWN_pronoun] a appris quelques notions sur les artefacts exotiques qu'[PAWN_pronoun] vendait, et beaucoup sur l'art de la négociation.</MACHINIST_ShopKid.description>
+
+  <SEX_Commander.title>commandant</SEX_Commander.title>
+  <SEX_Commander.titleFemale>commandante</SEX_Commander.titleFemale>
+  <SEX_Commander.titleShort>commandant</SEX_Commander.titleShort>
+  <SEX_Commander.titleShortFemale>commandante</SEX_Commander.titleShortFemale>
+  <SEX_Commander.description>[PAWN_nameDef] a servi vaillamment sa nation lors d'innombrables batailles et a gravi peu à peu les échelons de l'armée d'une cité-État. Avec le temps, [PAWN_pronoun] a été {PAWN_gender ? promu : promue : promu(e)} au grade de commandant et s'est vu confier sa propre unité.\n\nCette nouvelle position d'élite a apporté l'élévation attendue en statut, en richesse et en influence. [PAWN_nameDef] a fini par devenir gât{PAWN_gender ? é : ée : é(e)} et par se croire tout permis.</SEX_Commander.description>
+
+  <SEX_Juggernaut.title>mastodonte</SEX_Juggernaut.title>
+  <SEX_Juggernaut.titleShort>mastodonte</SEX_Juggernaut.titleShort>
+  <SEX_Juggernaut.description>[PAWN_nameDef] a servi vaillamment sa nation lors d'innombrables batailles et a gravi peu à peu les échelons de l'armée d'une cité-État. Avec le temps, [PAWN_pronoun] a été {PAWN_gender ? promu : promue : promu(e)} au grade de commandant et s'est vu confier sa propre unité.\n\nCette nouvelle position d'élite a apporté l'élévation attendue en statut, en richesse et en influence. [PAWN_nameDef] a fini par devenir gât{PAWN_gender ? é : ée : é(e)} et par se croire tout permis.</SEX_Juggernaut.description>
+
+  <SEX_Laborer.title>ouvrier</SEX_Laborer.title>
+  <SEX_Laborer.titleFemale>ouvrière</SEX_Laborer.titleFemale>
+  <SEX_Laborer.titleShort>ouvrier</SEX_Laborer.titleShort>
+  <SEX_Laborer.titleShortFemale>ouvrière</SEX_Laborer.titleShortFemale>
+  <SEX_Laborer.description>[PAWN_nameDef] était {PAWN_gender ? un simple ouvrier : une simple ouvrière : un(e) simple ouvrier(ère)} d'une cité-État.\n\n[PAWN_pronoun] transportait des objets et faisait tourner des machines sous les ordres du personnel supérieur. Ce travail sans fin et sans reconnaissance a brisé son moral.</SEX_Laborer.description>
+
+  <SEX_FactoryWorker.title>ouvrier d'usine</SEX_FactoryWorker.title>
+  <SEX_FactoryWorker.titleFemale>ouvrière d'usine</SEX_FactoryWorker.titleFemale>
+  <SEX_FactoryWorker.titleShort>ouvrier</SEX_FactoryWorker.titleShort>
+  <SEX_FactoryWorker.titleShortFemale>ouvrière</SEX_FactoryWorker.titleShortFemale>
+  <SEX_FactoryWorker.description>[PAWN_nameDef] effectuait des tâches subalternes, sans qualification, dans une usine industrielle.</SEX_FactoryWorker.description>
+
+  <SEX_Entrepreneur.title>homme d'affaires</SEX_Entrepreneur.title>
+  <SEX_Entrepreneur.titleFemale>femme d'affaires</SEX_Entrepreneur.titleFemale>
+  <SEX_Entrepreneur.titleShort>homme d'affaires</SEX_Entrepreneur.titleShort>
+  <SEX_Entrepreneur.titleShortFemale>femme d'affaires</SEX_Entrepreneur.titleShortFemale>
+  <SEX_Entrepreneur.description>Dans les cités-États, la plupart souffrent. Mais il faut bien que quelqu'un dirige les sociétés.\n\n[PAWN_nameDef] a appris les ficelles du métier : graisser les pattes et analyse technique. [PAWN_pronoun] est une véritable machine sociointellectuelle.</SEX_Entrepreneur.description>
+
+  <SEX_CivilServant.title>fonctionnaire</SEX_CivilServant.title>
+  <SEX_CivilServant.titleShort>bureaucrate</SEX_CivilServant.titleShort>
+  <SEX_CivilServant.description>[PAWN_nameDef] a travaillé comme administrat{PAWN_gender ? eur : rice : eur(rice)} de bas rang dans une bureaucratie gouvernementale moribonde. [PAWN_pronoun] est dans son élément quand il faut remplir des formulaires compliqués et jouer aux jeux de pouvoir du bureau.</SEX_CivilServant.description>
+
+  <SEX_Engineer.title>ingénieur</SEX_Engineer.title>
+  <SEX_Engineer.titleFemale>ingénieure</SEX_Engineer.titleFemale>
+  <SEX_Engineer.titleShort>ingénieur</SEX_Engineer.titleShort>
+  <SEX_Engineer.titleShortFemale>ingénieure</SEX_Engineer.titleShortFemale>
+  <SEX_Engineer.description>[PAWN_nameDef] était {PAWN_gender ? ingénieur : ingénieure : ingénieur(e)} en construction. [PAWN_pronoun] dirigeait une équipe qui bâtissait de tout, des avant-postes frontaliers aux cathédrales.\n\nSon emploi du temps chargé et les nombreux fast-foods des environs ont fait qu'[PAWN_pronoun] n'a jamais cuisiné pour soi-même.</SEX_Engineer.description>
+
+  <SEX_CivilianDoctor.title>médecin</SEX_CivilianDoctor.title>
+  <SEX_CivilianDoctor.titleShort>médecin</SEX_CivilianDoctor.titleShort>
+  <SEX_CivilianDoctor.description>[PAWN_nameDef] a obtenu son diplôme dans une école de médecine financée par le gouvernement d'une cité-État et est {PAWN_gender ? devenu : devenue : devenu(e)} médecin de combat. Soigner des soldats blessés était difficile, mais [PAWN_pronoun] était {PAWN_gender ? fier : fière : fier(ère)} de sa capacité à sauver des vies.</SEX_CivilianDoctor.description>
+
+  <SEX_LivestockFarmer.title>éleveur</SEX_LivestockFarmer.title>
+  <SEX_LivestockFarmer.titleFemale>éleveuse</SEX_LivestockFarmer.titleFemale>
+  <SEX_LivestockFarmer.titleShort>fermier</SEX_LivestockFarmer.titleShort>
+  <SEX_LivestockFarmer.titleShortFemale>fermière</SEX_LivestockFarmer.titleShortFemale>
+  <SEX_LivestockFarmer.description>[PAWN_nameDef] travaillait dans un élevage. [PAWN_pronoun] analysait la génétique animale, les types d'alimentation, les méthodes de naissance et d'abattage et l'évolution des prix pour optimiser l'élevage d'immenses troupeaux.</SEX_LivestockFarmer.description>
+
+  <SEX_CropFarmer.title>cultivateur</SEX_CropFarmer.title>
+  <SEX_CropFarmer.titleFemale>cultivatrice</SEX_CropFarmer.titleFemale>
+  <SEX_CropFarmer.titleShort>fermier</SEX_CropFarmer.titleShort>
+  <SEX_CropFarmer.titleShortFemale>fermière</SEX_CropFarmer.titleShortFemale>
+  <SEX_CropFarmer.description>[PAWN_nameDef] travaillait dans une exploitation de cultures. [PAWN_pronoun] analysait le sol, le matériel agricole, la météo et l'évolution des prix pour optimiser les semis et les récoltes d'immenses champs.</SEX_CropFarmer.description>
+
+  <SEX_Merchant.title>marchand</SEX_Merchant.title>
+  <SEX_Merchant.titleFemale>marchande</SEX_Merchant.titleFemale>
+  <SEX_Merchant.titleShort>marchand</SEX_Merchant.titleShort>
+  <SEX_Merchant.titleShortFemale>marchande</SEX_Merchant.titleShortFemale>
+  <SEX_Merchant.description>[PAWN_nameDef] a été adopt{PAWN_gender ? é : ée : é(e)} par une lignée de marchands et a repris l'entreprise familiale à la mort de ses parents.\n\nLe train de vie luxueux lié à son domaine d'activité a rendu [PAWN_nameDef] gât{PAWN_gender ? é : ée : é(e)} et persuad{PAWN_gender ? é : ée : é(e)} que tout lui est dû.</SEX_Merchant.description>
+
+  <SEX_Settler.title>colon de cité</SEX_Settler.title>
+  <SEX_Settler.titleShort>colon</SEX_Settler.titleShort>
+  <SEX_Settler.description>[PAWN_nameDef] faisait partie des premiers colons d'une cité-État récemment fondée.\n\nUne telle vie exige un touche-à-tout pour les tâches manuelles de base.</SEX_Settler.description>
+
+  <SEX_Immigrant.title>immigré</SEX_Immigrant.title>
+  <SEX_Immigrant.titleFemale>immigrée</SEX_Immigrant.titleFemale>
+  <SEX_Immigrant.titleShort>immigré</SEX_Immigrant.titleShort>
+  <SEX_Immigrant.titleShortFemale>immigrée</SEX_Immigrant.titleShortFemale>
+  <SEX_Immigrant.description>La vie d'agriculteur de subsistance était difficile et laissait souvent la famille de [PAWN_nameDef] affamée. {PAWN_gender ? Las : Lasse : Las(se)} de ces épreuves, [PAWN_nameDef] a fait ses bagages pour chercher une vie meilleure dans une grande cité-État.</SEX_Immigrant.description>
+
+  <SEX_Housemate.title>homme au foyer</SEX_Housemate.title>
+  <SEX_Housemate.titleFemale>femme au foyer</SEX_Housemate.titleFemale>
+  <SEX_Housemate.titleShort>homme au foyer</SEX_Housemate.titleShort>
+  <SEX_Housemate.titleShortFemale>femme au foyer</SEX_Housemate.titleShortFemale>
+  <SEX_Housemate.description>À l'âge adulte, [PAWN_nameDef] tenait la maison et s'occupait de ses enfants pendant que son conjoint travaillait.</SEX_Housemate.description>
+
+  <SEX_Teacher.title>enseignant</SEX_Teacher.title>
+  <SEX_Teacher.titleFemale>enseignante</SEX_Teacher.titleFemale>
+  <SEX_Teacher.titleShort>enseignant</SEX_Teacher.titleShort>
+  <SEX_Teacher.titleShortFemale>enseignante</SEX_Teacher.titleShortFemale>
+  <SEX_Teacher.description>[PAWN_nameDef] a reçu une éducation en arts libéraux et a enseigné dans une école publique financée par le gouvernement d'une cité-État. [PAWN_pronoun] avait des connaissances très étendues et était {PAWN_gender ? apprécié : appréciée : apprécié(e)} de ses élèves.</SEX_Teacher.description>
+
+  <SEX_Bartender.title>barman</SEX_Bartender.title>
+  <SEX_Bartender.titleFemale>barmaid</SEX_Bartender.titleFemale>
+  <SEX_Bartender.titleShort>barman</SEX_Bartender.titleShort>
+  <SEX_Bartender.titleShortFemale>barmaid</SEX_Bartender.titleShortFemale>
+  <SEX_Bartender.description>[PAWN_nameDef] travaillait comme {PAWN_gender ? barman : barmaid : barman} dans un établissement louche. Le métier consistait pour un tiers à mélanger des boissons, pour un tiers à faire de la diplomatie et pour un tiers à calmer les bagarres à coups de poing.</SEX_Bartender.description>
+
+  <SEX_CombatMedic.title>médecin de combat</SEX_CombatMedic.title>
+  <SEX_CombatMedic.titleShort>médic</SEX_CombatMedic.titleShort>
+  <SEX_CombatMedic.description>[PAWN_nameDef] a obtenu son diplôme dans une école de médecine et est {PAWN_gender ? devenu : devenue : devenu(e)} médecin de combat. Soigner des soldats blessés était difficile, mais [PAWN_pronoun] était {PAWN_gender ? fier : fière : fier(ère)} de sa capacité à sauver des vies.\n\nC'était un travail éprouvant, et le stress constant l'a laiss{PAWN_gender ? é : ée : é(e)} traumatis{PAWN_gender ? é : ée : é(e)}.</SEX_CombatMedic.description>
+
+  <SEX_CombatNurse.title>infirmier de combat</SEX_CombatNurse.title>
+  <SEX_CombatNurse.titleFemale>infirmière de combat</SEX_CombatNurse.titleFemale>
+  <SEX_CombatNurse.titleShort>infirmier</SEX_CombatNurse.titleShort>
+  <SEX_CombatNurse.titleShortFemale>infirmière</SEX_CombatNurse.titleShortFemale>
+  <SEX_CombatNurse.description>[PAWN_nameDef] a tout juste réussi ses études de médecine et a été aussitôt envoy{PAWN_gender ? é : ée : é(e)} en première ligne comme {PAWN_gender ? infirmier : infirmière : infirmier(ère)} de combat. [PAWN_pronoun] a sauvé de nombreuses vies, bien que ses faibles compétences sociales l'aient souvent éloign{PAWN_gender ? é : ée : é(e)} de ses camarades.</SEX_CombatNurse.description>
+
+  <SEX_PsychoMedic.title>ambulancier fou</SEX_PsychoMedic.title>
+  <SEX_PsychoMedic.titleFemale>ambulancière folle</SEX_PsychoMedic.titleFemale>
+  <SEX_PsychoMedic.titleShort>ambulancier</SEX_PsychoMedic.titleShort>
+  <SEX_PsychoMedic.titleShortFemale>ambulancière</SEX_PsychoMedic.titleShortFemale>
+  <SEX_PsychoMedic.description>Des années d'abus indicibles ont brisé [PAWN_nameDef]. Ombre de ce qu'[PAWN_pronoun] avait été, [PAWN_pronoun] excellait dans son métier de médic mais peinait à interagir avec les autres, sans parler d'exercer un autre travail. Même les tâches les plus simples étaient devenues un fardeau impossible.</SEX_PsychoMedic.description>
+
+  <SEX_SicklyMedic.title>chirurgien maladif</SEX_SicklyMedic.title>
+  <SEX_SicklyMedic.titleFemale>chirurgienne maladive</SEX_SicklyMedic.titleFemale>
+  <SEX_SicklyMedic.titleShort>chirurgien</SEX_SicklyMedic.titleShort>
+  <SEX_SicklyMedic.titleShortFemale>chirurgienne</SEX_SicklyMedic.titleShortFemale>
+  <SEX_SicklyMedic.description>[PAWN_nameDef] a étudié la médecine dans une université locale. [PAWN_pronoun] a tout juste réussi ses examens, car [PAWN_pronoun] tombait constamment malade. L'ironie de la situation n'a pas échappé à [PAWN_nameDef].</SEX_SicklyMedic.description>
+
+  <SEX_UnethicalDoctor.title>médecin de combat</SEX_UnethicalDoctor.title>
+  <SEX_UnethicalDoctor.titleShort>médic</SEX_UnethicalDoctor.titleShort>
+  <SEX_UnethicalDoctor.description>[PAWN_nameDef] est {PAWN_gender ? devenu : devenue : devenu(e)} médecin pour sauver des vies et faire progresser la recherche médicale. [PAWN_pronoun] a vite compris que la seule façon de faire avancer ses recherches était de pratiquer des expériences sur des patients humains.\n\n[PAWN_pronoun] a souvent utilisé des patients pour ses expériences, qu'ils soient consentants ou non.</SEX_UnethicalDoctor.description>
+
+  <SEX_Recruit.title>recrue</SEX_Recruit.title>
+  <SEX_Recruit.titleShort>recrue</SEX_Recruit.titleShort>
+  <SEX_Recruit.description>[PAWN_nameDef] s'est engag{PAWN_gender ? é : ée : é(e)} dans l'armée d'une cité-État. [PAWN_pronoun] s'est bientôt retrouv{PAWN_gender ? é : ée : é(e)} en première ligne, à combattre les ennemis de l'État. L'entraînement militaire a fait de [PAWN_nameDef] {PAWN_gender ? un guerrier compétent : une guerrière compétente : un(e) guerrier(ère) compétent(e)}.</SEX_Recruit.description>
+
+  <SEX_EagerRecruit.title>recrue enthousiaste</SEX_EagerRecruit.title>
+  <SEX_EagerRecruit.titleShort>recrue</SEX_EagerRecruit.titleShort>
+  <SEX_EagerRecruit.description>La vie civile n'a jamais vraiment convenu à [PAWN_nameDef], qui s'est vite lass{PAWN_gender ? é : ée : é(e)} de sa routine banale. Quand la guerre a éclaté, [PAWN_pronoun] a saisi la chance de servir son pays.</SEX_EagerRecruit.description>
+
+  <SEX_DesperateRecruit.title>tire-au-flanc</SEX_DesperateRecruit.title>
+  <SEX_DesperateRecruit.titleShort>tire-au-flanc</SEX_DesperateRecruit.titleShort>
+  <SEX_DesperateRecruit.description>Sans autre perspective d'avenir, [PAWN_nameDef] s'est engag{PAWN_gender ? é : ée : é(e)} dans l'armée. Sa paresse naturelle et son manque de discipline lui ont souvent valu la colère de ses supérieurs.</SEX_DesperateRecruit.description>
+
+  <SEX_DullTroop.title>soldat terne</SEX_DullTroop.title>
+  <SEX_DullTroop.titleFemale>soldate terne</SEX_DullTroop.titleFemale>
+  <SEX_DullTroop.titleShort>soldat</SEX_DullTroop.titleShort>
+  <SEX_DullTroop.titleShortFemale>soldate</SEX_DullTroop.titleShortFemale>
+  <SEX_DullTroop.description>[PAWN_nameDef] a rejoint l'armée d'une cité-État. [PAWN_pronoun] excellait sur le terrain mais manquait du charisme nécessaire pour mener les autres.</SEX_DullTroop.description>
+
+  <SEX_CombatMechanic.title>mécanicien de combat</SEX_CombatMechanic.title>
+  <SEX_CombatMechanic.titleFemale>mécanicienne de combat</SEX_CombatMechanic.titleFemale>
+  <SEX_CombatMechanic.titleShort>mécanicien</SEX_CombatMechanic.titleShort>
+  <SEX_CombatMechanic.titleShortFemale>mécanicienne</SEX_CombatMechanic.titleShortFemale>
+  <SEX_CombatMechanic.description>[PAWN_nameDef] a été {PAWN_gender ? employé : employée : employé(e)} par l'armée d'une cité-État comme {PAWN_gender ? mécanicien : mécanicienne : mécanicien(ne)} et a passé l'essentiel de sa carrière à entretenir les divers véhicules et armes des forces.</SEX_CombatMechanic.description>
+
+  <SEX_CombatEngineer.title>ingénieur de combat</SEX_CombatEngineer.title>
+  <SEX_CombatEngineer.titleFemale>ingénieure de combat</SEX_CombatEngineer.titleFemale>
+  <SEX_CombatEngineer.titleShort>ingénieur</SEX_CombatEngineer.titleShort>
+  <SEX_CombatEngineer.titleShortFemale>ingénieure</SEX_CombatEngineer.titleShortFemale>
+  <SEX_CombatEngineer.description>[PAWN_nameDef] a brièvement travaillé comme ingénieur avant d'être recrut{PAWN_gender ? é : ée : é(e)} par l'armée d'une cité-État. Creuser des tranchées et bâtir des fortifications s'est révélé bien plus éprouvant physiquement que le travail de conception qu'[PAWN_pronoun] faisait avant de s'engager.\n\nUne série de missions ratées a laissé [PAWN_nameDef] pyrophobe et avec un fort désir d'éviter les plantes.</SEX_CombatEngineer.description>
+
+  <SEX_PettyOfficer.title>sous-officier</SEX_PettyOfficer.title>
+  <SEX_PettyOfficer.titleShort>officier</SEX_PettyOfficer.titleShort>
+  <SEX_PettyOfficer.description>Malgré l'absence de véritable formation au combat, [PAWN_nameDef] a su user de son charisme et de sa vivacité d'esprit pour obtenir un brevet de sous-officier dans l'armée d'une cité-État. Sa capacité à analyser et à s'adapter rapidement à des situations changeantes s'est révélée précieuse sur le terrain.</SEX_PettyOfficer.description>
+
+  <SEX_Psychopath.title>psychopathe</SEX_Psychopath.title>
+  <SEX_Psychopath.titleShort>psychopathe</SEX_Psychopath.titleShort>
+  <SEX_Psychopath.description>[PAWN_nameDef] a développé des tendances sociopathes durant son service. Son comportement déséquilibré et son mépris total de la vie humaine ont été étouffés par ses supérieurs en raison de ses excellentes performances de soldat.</SEX_Psychopath.description>
+
+  <SEX_Scout.title>éclaireur de l'armée</SEX_Scout.title>
+  <SEX_Scout.titleFemale>éclaireuse de l'armée</SEX_Scout.titleFemale>
+  <SEX_Scout.titleShort>éclaireur</SEX_Scout.titleShort>
+  <SEX_Scout.titleShortFemale>éclaireuse</SEX_Scout.titleShortFemale>
+  <SEX_Scout.description>[PAWN_nameDef] a été recrut{PAWN_gender ? é : ée : é(e)} par la division de cavalerie de l'armée d'une cité-État. [PAWN_pronoun] s'est révélé {PAWN_gender ? un éclaireur né : une éclaireuse née : un(e) éclaireur(se) né(e)}, capable de traverser les terrains les plus accidentés avec aisance.</SEX_Scout.description>
+
+  <SEX_Surveyor.title>géomètre</SEX_Surveyor.title>
+  <SEX_Surveyor.titleShort>géomètre</SEX_Surveyor.titleShort>
+  <SEX_Surveyor.description>[PAWN_nameDef] a été recrut{PAWN_gender ? é : ée : é(e)} par la division du renseignement de l'armée d'une cité-État. [PAWN_pronoun] dressait des cartes et recueillait des renseignements sur d'éventuelles conquêtes.\n\n[PAWN_nameDef] a été élev{PAWN_gender ? é : ée : é(e)} par de fervents luddites et a appris à compter sur sa propre force plutôt que sur des gadgets sophistiqués. Bien qu'[PAWN_pronoun] ait abandonné cette éducation stricte, [PAWN_pronoun] a encore du mal à comprendre la moindre machine.</SEX_Surveyor.description>
+
+  <SEX_Logistician.title>logisticien</SEX_Logistician.title>
+  <SEX_Logistician.titleFemale>logisticienne</SEX_Logistician.titleFemale>
+  <SEX_Logistician.titleShort>logisticien</SEX_Logistician.titleShort>
+  <SEX_Logistician.titleShortFemale>logisticienne</SEX_Logistician.titleShortFemale>
+  <SEX_Logistician.description>[PAWN_nameDef] avait un don pour la paperasse et a fini par rejoindre l'armée comme {PAWN_gender ? logisticien : logisticienne : logisticien(ne)}. Sa grande mémoire et son sens du détail l'ont {PAWN_gender ? rendu : rendue : rendu(e)} indispensable à ses supérieurs.\n\n[PAWN_pronoun] était aussi tristement célèbre dans sa compagnie logistique pour son dédain désinvolte du travail de base.</SEX_Logistician.description>
+
+  <SEX_TraumaTroop.title>soldat traumatisé</SEX_TraumaTroop.title>
+  <SEX_TraumaTroop.titleFemale>soldate traumatisée</SEX_TraumaTroop.titleFemale>
+  <SEX_TraumaTroop.titleShort>soldat traumatisé</SEX_TraumaTroop.titleShort>
+  <SEX_TraumaTroop.titleShortFemale>soldate traumatisée</SEX_TraumaTroop.titleShortFemale>
+  <SEX_TraumaTroop.description>La guerre n'a jamais été tendre avec [PAWN_nameDef]. [PAWN_pronoun] a perdu de nombreux amis lors de raids et s'est reproch{PAWN_gender ? é : ée : é(e)} de n'avoir pas pu les sauver. Sa détermination à protéger son entourage l'a pouss{PAWN_gender ? é : ée : é(e)} à rejoindre l'armée.</SEX_TraumaTroop.description>
+
+  <SEX_Mercenary.title>mercenaire</SEX_Mercenary.title>
+  <SEX_Mercenary.titleShort>mercenaire</SEX_Mercenary.titleShort>
+  <SEX_Mercenary.description>Les armées des cités-États comptent généralement une sorte de détachement mercenaire, et [PAWN_nameDef] faisait partie d'une de ces unités. De la protection de convois à la traque de fugitifs recherchés, sa compagnie mercenaire était régulièrement engagée.\n\nLa violence constante vécue par [PAWN_nameDef] l'a laiss{PAWN_gender ? é : ée : é(e)} marqu{PAWN_gender ? é : ée : é(e)} mentalement.</SEX_Mercenary.description>
+
+  <SEX_ImprovChef.title>cuisinier improvisé</SEX_ImprovChef.title>
+  <SEX_ImprovChef.titleFemale>cuisinière improvisée</SEX_ImprovChef.titleFemale>
+  <SEX_ImprovChef.titleShort>cuisinier</SEX_ImprovChef.titleShort>
+  <SEX_ImprovChef.titleShortFemale>cuisinière</SEX_ImprovChef.titleShortFemale>
+  <SEX_ImprovChef.description>[PAWN_nameDef] s'est fait un nom dans l'armée d'une cité-État grâce à ses talents de {PAWN_gender ? cuisinier : cuisinière : cuisinier(ère)}. Bien qu'[PAWN_pronoun] n'ait jamais reçu de formation culinaire officielle, sa capacité à tirer le meilleur des maigres rations dont [PAWN_pronoun] disposait l'a {PAWN_gender ? rendu : rendue : rendu(e)} populaire auprès de ses camarades.\n\nBien qu'[PAWN_pronoun] fût {PAWN_gender ? un excellent cuisinier : une excellente cuisinière : un(e) excellent(e) cuisinier(ère)}, [PAWN_pronoun] était absolument incapable de préparer les ingrédients nécessaires à un repas. [PAWN_pronoun] s'est un jour bless{PAWN_gender ? é : ée : é(e)} en cherchant des herbes.</SEX_ImprovChef.description>
+
+  <SEX_Rationmonger.title>intendant des vivres</SEX_Rationmonger.title>
+  <SEX_Rationmonger.titleFemale>intendante des vivres</SEX_Rationmonger.titleFemale>
+  <SEX_Rationmonger.titleShort>intendant</SEX_Rationmonger.titleShort>
+  <SEX_Rationmonger.titleShortFemale>intendante</SEX_Rationmonger.titleShortFemale>
+  <SEX_Rationmonger.description>[PAWN_nameDef] a été engag{PAWN_gender ? é : ée : é(e)} par l'armée d'une cité-État pour gérer la distribution des rations. Bien que sans expérience en logistique, [PAWN_pronoun] a vite gravi les échelons grâce à sa capacité à garder les troupes contentes et bien nourries.</SEX_Rationmonger.description>
+
+  <SEX_Veteran.title>vétéran</SEX_Veteran.title>
+  <SEX_Veteran.titleFemale>vétérane</SEX_Veteran.titleFemale>
+  <SEX_Veteran.titleShort>vétéran</SEX_Veteran.titleShort>
+  <SEX_Veteran.titleShortFemale>vétérane</SEX_Veteran.titleShortFemale>
+  <SEX_Veteran.description>[PAWN_nameDef] a servi comme mercenaire au service de l'armée d'une cité-État jusqu'à sa démobilisation à la suite d'une blessure légère subie au combat. {PAWN_gender ? Fort : Forte : Fort(e)} de ses années d'expérience sur le terrain, [PAWN_pronoun] a pu obtenir un poste subalterne dans la même armée après son rétablissement.\n\nTout entier consacré au combat, [PAWN_nameDef] n'avait pas de temps à consacrer aux perspectives créatives.</SEX_Veteran.description>
+
+  <SEX_JadedVeteran.title>vétéran blasé</SEX_JadedVeteran.title>
+  <SEX_JadedVeteran.titleFemale>vétérane blasée</SEX_JadedVeteran.titleFemale>
+  <SEX_JadedVeteran.titleShort>vétéran</SEX_JadedVeteran.titleShort>
+  <SEX_JadedVeteran.titleShortFemale>vétérane</SEX_JadedVeteran.titleShortFemale>
+  <SEX_JadedVeteran.description>L'unité de [PAWN_nameDef] a été déshonorée après qu'une série de mutineries a conduit au meurtre d'un commandant estimé. [PAWN_nameDef] n'était pas impliqu{PAWN_gender ? é : ée : é(e)} dans le complot, mais [PAWN_pronoun] a quand même été rétrograd{PAWN_gender ? é : ée : é(e)} à cause de son affiliation à l'unité déshonorée. Cela l'a laiss{PAWN_gender ? é : ée : é(e)} {PAWN_gender ? amer et rancunier : amère et rancunière : amer(ère) et rancunier(ère)}.</SEX_JadedVeteran.description>
+
+  <SEX_Drifter.title>vagabond</SEX_Drifter.title>
+  <SEX_Drifter.titleFemale>vagabonde</SEX_Drifter.titleFemale>
+  <SEX_Drifter.titleShort>vagabond</SEX_Drifter.titleShort>
+  <SEX_Drifter.titleShortFemale>vagabonde</SEX_Drifter.titleShortFemale>
+  <SEX_Drifter.description>[PAWN_nameDef] n'a jamais su quoi faire de sa vie. [PAWN_pronoun] voyageait beaucoup, acceptant des petits boulots là où [PAWN_pronoun] en trouvait.\n\n[PAWN_pronoun] a fini par s'engager dans l'armée d'une cité-État.</SEX_Drifter.description>
+
+  <SEX_CavalrySnob.title>snob de la cavalerie</SEX_CavalrySnob.title>
+  <SEX_CavalrySnob.titleFemale>snob de la cavalerie</SEX_CavalrySnob.titleFemale>
+  <SEX_CavalrySnob.titleShort>cavalier</SEX_CavalrySnob.titleShort>
+  <SEX_CavalrySnob.titleShortFemale>cavalière</SEX_CavalrySnob.titleShortFemale>
+  <SEX_CavalrySnob.description>Même si la cavalerie montée est devenue une rareté sur les champs de bataille, certaines armées continuent d'entretenir une telle division pour préserver la tradition. [PAWN_nameDef] a rejoint l'une de ces forces et est vite {PAWN_gender ? devenu : devenue : devenu(e)} {PAWN_gender ? un cavalier et lancier accompli : une cavalière et lancière accomplie : un(e) cavalier(ère) et lancier(ère) accompli(e)}.\n\nSes camarades étaient pour la plupart des fils et filles de familles influentes et privilégiées, et [PAWN_nameDef] a vite intégré ce milieu. [PAWN_pronoun] a appris à apprécier les plaisirs raffinés de la vie et à détester tout ce qui pouvait passer pour vulgaire.</SEX_CavalrySnob.description>
+
+  <SEX_Pariah.title>paria</SEX_Pariah.title>
+  <SEX_Pariah.titleShort>paria</SEX_Pariah.titleShort>
+  <SEX_Pariah.description>[PAWN_nameDef] a été captur{PAWN_gender ? é : ée : é(e)} par une armée ennemie lors d'une escarmouche frontalière. L'ennemi s'est servi de [PAWN_nameDef] comme d'un jouet et l'a contrain{PAWN_gender ? t : te : t(e)} à toutes sortes de débauches. À son retour dans son unité, [PAWN_pronoun] a été {PAWN_gender ? tenu : tenue : tenu(e)} pour responsable de tout l'incident. Cela l'a laiss{PAWN_gender ? é : ée : é(e)} profondément {PAWN_gender ? honteux : honteuse : honteux(se)} et avec une forte haine de soi.</SEX_Pariah.description>
+
+  <SEX_Slowpoke.title>lambin</SEX_Slowpoke.title>
+  <SEX_Slowpoke.titleFemale>lambine</SEX_Slowpoke.titleFemale>
+  <SEX_Slowpoke.titleShort>lambin</SEX_Slowpoke.titleShort>
+  <SEX_Slowpoke.titleShortFemale>lambine</SEX_Slowpoke.titleShortFemale>
+  <SEX_Slowpoke.description>La guerre qui avait façonné la vie de [PAWN_nameDef] a pris fin et une longue période de paix s'est installée. Cette période d'inactivité l'a laiss{PAWN_gender ? é : ée : é(e)} {PAWN_gender ? paresseux et apathique : paresseuse et apathique : paresseux(se) et apathique}.</SEX_Slowpoke.description>
+
+  <SEX_Drunk.title>milicien ivrogne</SEX_Drunk.title>
+  <SEX_Drunk.titleFemale>milicienne ivrogne</SEX_Drunk.titleFemale>
+  <SEX_Drunk.titleShort>milicien</SEX_Drunk.titleShort>
+  <SEX_Drunk.titleShortFemale>milicienne</SEX_Drunk.titleShortFemale>
+  <SEX_Drunk.description>[PAWN_nameDef] faisait partie d'une milice de ville qui n'était que rarement, voire jamais, appelée à remplir son véritable devoir. L'unité passait surtout son temps à traîner, à boire et à se bagarrer tout en profitant des avantages de ce poste confortable.</SEX_Drunk.description>
+
+  <SEX_MechReactionForce.title>combattant antimécanoïdes</SEX_MechReactionForce.title>
+  <SEX_MechReactionForce.titleFemale>combattante antimécanoïdes</SEX_MechReactionForce.titleFemale>
+  <SEX_MechReactionForce.titleShort>antimécas</SEX_MechReactionForce.titleShort>
+  <SEX_MechReactionForce.titleShortFemale>antimécas</SEX_MechReactionForce.titleShortFemale>
+  <SEX_MechReactionForce.description>Les mécanoïdes sont une menace constante dans les mondes frontaliers, et [PAWN_nameDef] a servi dans l'armée d'une cité-État au sein d'une force de réaction chargée de répondre aux raids de mécanoïdes dans les villes de la frontière. Le stress et le danger constants ont eu raison de sa santé mentale et l'ont {PAWN_gender ? réduit : réduite : réduit(e)} à l'état de coquille volatile et paranoïaque de ce qu'[PAWN_pronoun] avait été.</SEX_MechReactionForce.description>
+
+  <SEX_FormerSailor.title>ancien marin</SEX_FormerSailor.title>
+  <SEX_FormerSailor.titleShort>marin</SEX_FormerSailor.titleShort>
+  <SEX_FormerSailor.description>[PAWN_nameDef] s'est engag{PAWN_gender ? é : ée : é(e)} comme marin dans la marine d'une cité-État. [PAWN_pronoun] a passé l'essentiel de son temps à faire des corvées et a rarement vu de véritable action.\n\nUne légère blessure au combat a valu à [PAWN_nameDef] d'être réaffect{PAWN_gender ? é : ée : é(e)} en première ligne avec un grade de sous-officier.</SEX_FormerSailor.description>
+
+  <SEX_Hermit.title>ermite de guerre</SEX_Hermit.title>
+  <SEX_Hermit.titleShort>ermite</SEX_Hermit.titleShort>
+  <SEX_Hermit.description>[PAWN_nameDef] était {PAWN_gender ? considéré : considérée : considéré(e)} comme assez déséquilibré. Même ceux sous ses ordres lui trouvaient un comportement étrange. [PAWN_pronoun] affirmait souvent avoir été b{PAWN_gender ? éni : énie : éni(e)} par telle ou telle divinité. Ces affirmations étaient balayées par ses supérieurs, qui les attribuaient au stress de la guerre.</SEX_Hermit.description>
+
+  <SEX_MafiaBoss.title>chef mafieux</SEX_MafiaBoss.title>
+  <SEX_MafiaBoss.titleFemale>cheffe mafieuse</SEX_MafiaBoss.titleFemale>
+  <SEX_MafiaBoss.titleShort>chef mafieux</SEX_MafiaBoss.titleShort>
+  <SEX_MafiaBoss.titleShortFemale>cheffe mafieuse</SEX_MafiaBoss.titleShortFemale>
+  <SEX_MafiaBoss.description>[PAWN_nameDef] occupait un rang élevé dans une famille mafieuse. La famille a dû se ranger après la saisie de ses biens par les autorités, et [PAWN_nameDef] a été envoy{PAWN_gender ? é : ée : é(e)} dans une colonie pénitentiaire.\n\nÀ sa libération, [PAWN_pronoun] a constaté qu'[PAWN_pronoun] ne parvenait plus à se réinsérer dans la vie civile et a rejoint l'armée. Cette expérience n'a guère tempéré son penchant pour la violence.</SEX_MafiaBoss.description>
+
+  <SEX_FormerGangster.title>voyou repenti</SEX_FormerGangster.title>
+  <SEX_FormerGangster.titleFemale>voyou repentie</SEX_FormerGangster.titleFemale>
+  <SEX_FormerGangster.titleShort>repenti</SEX_FormerGangster.titleShort>
+  <SEX_FormerGangster.titleShortFemale>repentie</SEX_FormerGangster.titleShortFemale>
+  <SEX_FormerGangster.description>[PAWN_nameDef] a grandi dans un petit gang de rue d'une grande ville. [PAWN_pronoun] y a vu une occasion de rentrer dans le droit chemin quand l'armée est venue chercher des volontaires.\n\nDans l'armée, [PAWN_nameDef] était incapable de penser par soi-même et suivait aveuglément les ordres sans poser de questions.</SEX_FormerGangster.description>
+
+  <SEX_EltexMiner.title>mineur d'eltex</SEX_EltexMiner.title>
+  <SEX_EltexMiner.titleFemale>mineuse d'eltex</SEX_EltexMiner.titleFemale>
+  <SEX_EltexMiner.titleShort>mineur</SEX_EltexMiner.titleShort>
+  <SEX_EltexMiner.titleShortFemale>mineuse</SEX_EltexMiner.titleShortFemale>
+  <SEX_EltexMiner.description>[PAWN_nameDef] travaillait pour une société de prospection spécialisée dans l'excavation de vestiges de ruines antiques. [PAWN_pronoun] était {PAWN_gender ? chargé : chargée : chargé(e)} de déblayer les décombres et de récupérer tout objet utile.\n\n[PAWN_nameDef] s'est retrouv{PAWN_gender ? é : ée : é(e)} au chômage quand sa ville natale a été dévastée par des pillards. Incapable de trouver du travail, [PAWN_pronoun] a utilisé ce qui lui restait de ses anciens contacts pour rejoindre l'armée d'une cité-État. Son expérience de l'excavation a fait de [PAWN_nameDef] {PAWN_gender ? un excellent sapeur : une excellente sapeuse : un(e) excellent(e) sapeur(se)}.</SEX_EltexMiner.description>
+
+  <SEX_Interrogator.title>interrogateur</SEX_Interrogator.title>
+  <SEX_Interrogator.titleFemale>interrogatrice</SEX_Interrogator.titleFemale>
+  <SEX_Interrogator.titleShort>interrogateur</SEX_Interrogator.titleShort>
+  <SEX_Interrogator.titleShortFemale>interrogatrice</SEX_Interrogator.titleShortFemale>
+  <SEX_Interrogator.description>Au service d'une cité-État tyrannique, [PAWN_nameDef] s'est forgé une réputation d'{PAWN_gender ? expert : experte : expert(e)} en « persuasion ». Tout prisonnier descendu dans les cachots en ressortait sans aucun secret, et avec le sourire de [PAWN_nameDef] gravé à jamais dans ses cauchemars.</SEX_Interrogator.description>
+
+  <SEX_ForcedRecruit.title>recrue forcée</SEX_ForcedRecruit.title>
+  <SEX_ForcedRecruit.titleShort>recrue</SEX_ForcedRecruit.titleShort>
+  <SEX_ForcedRecruit.description>La ville natale de [PAWN_nameDef] a été envahie par une cité-État voisine. [PAWN_pronoun] a été enrôl{PAWN_gender ? é : ée : é(e)}, avec quelques autres survivants, par les envahisseurs victorieux et expédi{PAWN_gender ? é : ée : é(e)} en première ligne.\n\n[PAWN_nameDef] a eu du mal à s'entendre avec son unité et a développé un fort mépris pour tout le monde et pour toute chose.</SEX_ForcedRecruit.description>
+
+  <SEX_MercenaryChef.title>cuisinier mercenaire</SEX_MercenaryChef.title>
+  <SEX_MercenaryChef.titleFemale>cuisinière mercenaire</SEX_MercenaryChef.titleFemale>
+  <SEX_MercenaryChef.titleShort>cuistot de campagne</SEX_MercenaryChef.titleShort>
+  <SEX_MercenaryChef.titleShortFemale>cuistot de campagne</SEX_MercenaryChef.titleShortFemale>
+  <SEX_MercenaryChef.description>Une petite compagnie de mercenaires a engagé [PAWN_nameDef] pour faire la cuisine de l'équipe. [PAWN_pronoun] était bien {PAWN_gender ? traité : traitée : traité(e)} et a fini par être autoris{PAWN_gender ? é : ée : é(e)} à les accompagner en mission.\n\nLes frasques de la compagnie de mercenaires ont valu à [PAWN_nameDef] une réputation de {PAWN_gender ? fauteur : fauteuse : fauteur(se)} de troubles.</SEX_MercenaryChef.description>
+
+  <SEX_Daredevil.title>casse-cou</SEX_Daredevil.title>
+  <SEX_Daredevil.titleShort>casse-cou</SEX_Daredevil.titleShort>
+  <SEX_Daredevil.description>[PAWN_nameDef] avait un certain... goût pour la douleur. Ses goûts sont devenus de plus en plus extrêmes et le seul moyen de se libérer qu'[PAWN_pronoun] trouvait était de se livrer à des activités de plus en plus dangereuses. Cela l'a finalement pouss{PAWN_gender ? é : ée : é(e)} à rejoindre l'armée, où [PAWN_pronoun] pouvait infliger de la douleur aux autres pour gagner sa vie.</SEX_Daredevil.description>
+
+  <SEX_FailedArtist.title>artiste raté</SEX_FailedArtist.title>
+  <SEX_FailedArtist.titleFemale>artiste ratée</SEX_FailedArtist.titleFemale>
+  <SEX_FailedArtist.titleShort>artiste</SEX_FailedArtist.titleShort>
+  <SEX_FailedArtist.titleShortFemale>artiste</SEX_FailedArtist.titleShortFemale>
+  <SEX_FailedArtist.description>[PAWN_nameDef] a consacré le début de sa vie d'adulte à l'étude des arts. [PAWN_pronoun] n'aimait rien tant que passer ses journées à sculpter.\n\nMalheureusement, [PAWN_pronoun] n'avait pas beaucoup de talent. [PAWN_pronoun] a dû renoncer à sa passion et s'engager dans l'armée.</SEX_FailedArtist.description>
+
+  <SEX_Murderer.title>meurtrier</SEX_Murderer.title>
+  <SEX_Murderer.titleFemale>meurtrière</SEX_Murderer.titleFemale>
+  <SEX_Murderer.titleShort>meurtrier</SEX_Murderer.titleShort>
+  <SEX_Murderer.titleShortFemale>meurtrière</SEX_Murderer.titleShortFemale>
+  <SEX_Murderer.description>Tout le monde a un passe-temps qu'il aime. Certains se mettent à la couture ou à la sculpture, d'autres préfèrent le jardinage ou la chasse. Le passe-temps favori de [PAWN_nameDef] était le meurtre.\n\n[PAWN_pronoun] a dû fuir son foyer et chercher refuge dans une cité-État voisine après la découverte de son passe-temps secret. De là, l'armée semblait la suite logique.</SEX_Murderer.description>
+
+  <SEX_MadHatter.title>chapelier fou</SEX_MadHatter.title>
+  <SEX_MadHatter.titleFemale>chapelière folle</SEX_MadHatter.titleFemale>
+  <SEX_MadHatter.titleShort>chapelier fou</SEX_MadHatter.titleShort>
+  <SEX_MadHatter.titleShortFemale>chapelière folle</SEX_MadHatter.titleShortFemale>
+  <SEX_MadHatter.description>[PAWN_nameDef] ne dira pas quelle était sa profession précédente, mais il semble que ce soit quelque chose qui l'a lentement {PAWN_gender ? rendu : rendue : rendu(e)} {PAWN_gender ? fou : folle : fou(folle)}. [PAWN_pronoun] a fréquemment des éclairs de génie entre deux accès de folie.</SEX_MadHatter.description>
+
+  <SEX_Arsonist.title>pyromane</SEX_Arsonist.title>
+  <SEX_Arsonist.titleShort>pyromane</SEX_Arsonist.titleShort>
+  <SEX_Arsonist.description>[PAWN_nameDef] a développé une affinité pour le feu. Bougie, feu de camp ou brasier furieux, [PAWN_pronoun] trouvait de la joie dans les flammes. [PAWN_pronoun] a vite commencé à mettre le feu à tout et n'importe quoi.\n\n[PAWN_pronoun] a fini par être recrut{PAWN_gender ? é : ée : é(e)} par l'armée comme {PAWN_gender ? saboteur : saboteuse : saboteur(se)}, où son amour du feu serait mis à profit.</SEX_Arsonist.description>
+
+  <SEX_Extremist.title>extrémiste idéologique</SEX_Extremist.title>
+  <SEX_Extremist.titleShort>extrémiste</SEX_Extremist.titleShort>
+  <SEX_Extremist.description>[PAWN_nameDef] a adhéré à la propagande d'un mouvement extrémiste radical et a passé sa jeunesse à se battre pour sa cause. [PAWN_pronoun] croyait que son pays était devenu dégénéré et avait abandonné ses nobles idéaux. [PAWN_pronoun] s'est engag{PAWN_gender ? é : ée : é(e)} avec enthousiasme dans l'armée pour tenter de « restaurer la pureté » de sa patrie.</SEX_Extremist.description>
+
+  <SEX_Cannibal.title>cannibale</SEX_Cannibal.title>
+  <SEX_Cannibal.titleShort>cannibale</SEX_Cannibal.titleShort>
+  <SEX_Cannibal.description>[PAWN_nameDef] a été endoctrin{PAWN_gender ? é : ée : é(e)} par une secte de cannibales. Le goût a éveillé en [PAWN_nameDef] une faim que seule la chair de ses semblables pouvait apaiser.\n\nUne descente des forces de l'ordre a fini par contraindre le groupe à se dissoudre. Sans autre perspective, [PAWN_nameDef] a rejoint l'armée. [PAWN_pronoun] a fait de son mieux pour contenir ses pulsions, mais son envie de dévorer de la chair humaine n'a jamais vraiment disparu.</SEX_Cannibal.description>
+
+  <SEX_TownDrunk.title>ivrogne de la ville</SEX_TownDrunk.title>
+  <SEX_TownDrunk.titleShort>ivrogne de la ville</SEX_TownDrunk.titleShort>
+  <SEX_TownDrunk.description>[PAWN_nameDef] était {PAWN_gender ? un voyou bon : une voyoue bonne : un(e) voyou(e) bon(ne)} à rien qui n'aimait rien tant que se battre. L'unité locale de maintien de l'ordre en a eu assez de ses frasques et l'a envoy{PAWN_gender ? é : ée : é(e)} dans une académie militaire, dans l'espoir que la discipline lui remette les idées en place.</SEX_TownDrunk.description>
+
+  <SEX_InsectFighter.title>combattant d'insectes</SEX_InsectFighter.title>
+  <SEX_InsectFighter.titleFemale>combattante d'insectes</SEX_InsectFighter.titleFemale>
+  <SEX_InsectFighter.titleShort>milicien</SEX_InsectFighter.titleShort>
+  <SEX_InsectFighter.titleShortFemale>milicienne</SEX_InsectFighter.titleShortFemale>
+  <SEX_InsectFighter.description>Les essaims d'insectoïdes sont une menace courante dans les villes frontalières, et la ville natale de [PAWN_nameDef] ne faisait pas exception. [PAWN_pronoun] s'est engag{PAWN_gender ? é : ée : é(e)} dans la milice locale pour aider à défendre son foyer contre les attaques incessantes.\n\nLe traumatisme d'avoir assisté à la destruction causée par un essaim d'insectoïdes a laissé [PAWN_nameDef] avec une peur paralysante de tous les animaux.</SEX_InsectFighter.description>
+
+  <SEX_Reservist.title>réserviste</SEX_Reservist.title>
+  <SEX_Reservist.titleShort>réserviste</SEX_Reservist.titleShort>
+  <SEX_Reservist.description>[PAWN_nameDef] s'est engag{PAWN_gender ? é : ée : é(e)} dans l'armée d'une cité-État et a passé l'essentiel de son temps dans la réserve. Des semaines à ne rien faire d'autre qu'attendre l'appel aux armes l'ont laiss{PAWN_gender ? é : ée : é(e)} {PAWN_gender ? paresseux : paresseuse : paresseux(se)} et {PAWN_gender ? persuadé : persuadée : persuadé(e)} que tout lui est dû.</SEX_Reservist.description>
+
+  <SEX_Runaway.title>fugueur</SEX_Runaway.title>
+  <SEX_Runaway.titleFemale>fugueuse</SEX_Runaway.titleFemale>
+  <SEX_Runaway.titleShort>fugueur</SEX_Runaway.titleShort>
+  <SEX_Runaway.titleShortFemale>fugueuse</SEX_Runaway.titleShortFemale>
+  <SEX_Runaway.description>[PAWN_nameDef] a été persécut{PAWN_gender ? é : ée : é(e)} pour sa sexualité et a fini par fuir sa ville natale. [PAWN_pronoun] a trouvé refuge dans une cité-État voisine et a fini par rejoindre l'armée, dans l'espoir de se construire une vie meilleure.\n\nLe traumatisme subi par [PAWN_nameDef] l'a laiss{PAWN_gender ? é : ée : é(e)} marqu{PAWN_gender ? é : ée : é(e)} émotionnellement.</SEX_Runaway.description>
+
+  <SEX_RingFighter.title>combattant de ring</SEX_RingFighter.title>
+  <SEX_RingFighter.titleFemale>combattante de ring</SEX_RingFighter.titleFemale>
+  <SEX_RingFighter.titleShort>combattant</SEX_RingFighter.titleShort>
+  <SEX_RingFighter.titleShortFemale>combattante</SEX_RingFighter.titleShortFemale>
+  <SEX_RingFighter.description>[PAWN_nameDef] a passé sa prime jeunesse à écumer divers circuits de boxe clandestins. Sa carrière a été brisée quand [PAWN_pronoun] a été gravement bless{PAWN_gender ? é : ée : é(e)} lors d'un combat, et [PAWN_pronoun] a dû s'engager dans l'armée pour payer ses dettes médicales.\n\nDes années de violence et de mort ont endurci [PAWN_nameDef]. Le frisson du combat a fini par supplanter tous ses autres centres d'intérêt.</SEX_RingFighter.description>
+
+  <SEX_CivilServantRecruit.title>fonctionnaire</SEX_CivilServantRecruit.title>
+  <SEX_CivilServantRecruit.titleShort>bureaucrate</SEX_CivilServantRecruit.titleShort>
+  <SEX_CivilServantRecruit.description>[PAWN_nameDef] était bureaucrate dans la fonction publique d'une cité-État. Son emploi confortable lui offrait un mode de vie agréable dont [PAWN_pronoun] profitait avec empressement. Cette vie protégée et confortable l'a {PAWN_gender ? rendu : rendue : rendu(e)} complaisant et réfractaire aux épreuves.\n\nUne série de scandales et d'enquêtes pour corruption a conduit à la dissolution de son service. Face à un avenir sombre, [PAWN_nameDef] a choisi de rejoindre l'armée, espérant pouvoir y mener la vie confortable à laquelle [PAWN_pronoun] s'était habitu{PAWN_gender ? é : ée : é(e)}.</SEX_CivilServantRecruit.description>
+
+  <SEX_GloomyTroop.title>soldat lugubre</SEX_GloomyTroop.title>
+  <SEX_GloomyTroop.titleFemale>soldate lugubre</SEX_GloomyTroop.titleFemale>
+  <SEX_GloomyTroop.titleShort>soldat</SEX_GloomyTroop.titleShort>
+  <SEX_GloomyTroop.titleShortFemale>soldate</SEX_GloomyTroop.titleShortFemale>
+  <SEX_GloomyTroop.description>[PAWN_nameDef] était {PAWN_gender ? un simple ouvrier : une simple ouvrière : un(e) simple ouvrier(ère)} et menait une vie plutôt banale jusqu'à ce qu'une tragédie laisse [PAWN_nameDef] sans abri et sans ressources. [PAWN_pronoun] a fini par rejoindre l'armée de sa cité-État.\n\nLe passé de [PAWN_nameDef] est une source constante de stress et d'angoisse. [PAWN_pronoun] a du mal à tourner la page et fait fréquemment des cauchemars sur les horreurs qu'[PAWN_pronoun] a vécues.</SEX_GloomyTroop.description>
+
+  <SEX_ShellShock.title>traumatisé de guerre</SEX_ShellShock.title>
+  <SEX_ShellShock.titleFemale>traumatisée de guerre</SEX_ShellShock.titleFemale>
+  <SEX_ShellShock.titleShort>traumatisé</SEX_ShellShock.titleShort>
+  <SEX_ShellShock.titleShortFemale>traumatisée</SEX_ShellShock.titleShortFemale>
+  <SEX_ShellShock.description>[PAWN_nameDef] a été recrut{PAWN_gender ? é : ée : é(e)} dans l'armée très jeune et a grandi un fusil à la main.\n\nSon entraînement n'avait cependant pas pu le préparer aux horreurs de la guerre. Une série d'engagements brutaux l'a laiss{PAWN_gender ? é : ée : é(e)} en état de choc. [PAWN_pronoun] a fait face à la mort de ses camarades en prenant ses distances avec les autres, pour ne plus avoir à pleurer personne.</SEX_ShellShock.description>
+
+  <SEX_HopefulRecruit.title>recrue pleine d'espoir</SEX_HopefulRecruit.title>
+  <SEX_HopefulRecruit.titleShort>recrue</SEX_HopefulRecruit.titleShort>
+  <SEX_HopefulRecruit.description>[PAWN_nameDef] vivait dans les taudis d'une cité-État. Sa vie était pleine de difficultés et de souffrances, mais [PAWN_pronoun] n'a jamais perdu espoir.\n\nUn jour, un recruteur militaire a frappé à sa porte et lui a offert une issue. [PAWN_pronoun] s'est engag{PAWN_gender ? é : ée : é(e)} sur-le-champ.</SEX_HopefulRecruit.description>
+
+  <SEX_PsychopathMerc.title>mercenaire psychopathe</SEX_PsychopathMerc.title>
+  <SEX_PsychopathMerc.titleShort>mercenaire</SEX_PsychopathMerc.titleShort>
+  <SEX_PsychopathMerc.description>[PAWN_nameDef] a passé son adolescence comme mercenaire, travaillant pour quiconque le payait le mieux. La mort et la douleur constantes qu'[PAWN_pronoun] a vécues l'ont laiss{PAWN_gender ? é : ée : é(e)} insensible et détach{PAWN_gender ? é : ée : é(e)}.</SEX_PsychopathMerc.description>
+</LanguageData>
