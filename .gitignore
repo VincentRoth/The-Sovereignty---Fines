@@ -1,4 +1,4 @@
-Source/.vs
-Source/obj
-*.dll
+Source/**/.vs
+Source/**/obj
+*.pdb
 *.zip
